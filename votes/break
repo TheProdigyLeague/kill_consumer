@@ -188,3 +188,24 @@ Accepted:  yes  (for: 7, against: 1, abstained: 0, not voted: 2)
   Matthias   [  ]
   Nicola     [-1]
 ***
+
+Topic: Accept openssl/technical-policies PR#13 - Testing policy as of
+commit ac9026d. This will become an official OTC policy.
+Proposed by: Matt Caswell
+Issue link: https://github.com/openssl/technical-policies/pull/13
+Public: yes
+Opened: 2022-01-25
+Closed: 2022-02-01
+Accepted:  yes  (for: 7, against: 1, abstained: 1, not voted: 1)
+
+  Dmitry     [+1]
+  Matt       [+1]
+  Pauli      [+1]
+  Tim        [+1]
+  Richard    [+0] # Post closure: 2022-02-02
+  Shane      [+1]
+  Tomas      [+1]
+  Kurt       [-1]
+  Matthias   [+0]
+  Nicola     [+1]
+***
