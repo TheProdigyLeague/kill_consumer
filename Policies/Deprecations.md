@@ -1,34 +1,67 @@
+<pre>                                                                                                    
+ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
+ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
+ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
+ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
+ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
+ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
+ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
+ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
+ @@@@@          @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@          @@@@@         @@@@    @@@@@@@@@ 
+ @@@   @@@@@@@    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@              @             @@    @@@@@@@@@ 
+ @@   @@@@@@@@@    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@    @@@@@@@@@@@    @@@@@@ @@@@    @@@@@@@@@ 
+ @    @@@@@@@@@@                @@  @@               @@@          @@@@@          @@@@@    @@@@@@@@@ 
+ @    @@@@@@@@@@    @   @@@@@   %  @@@@   @@   @@@@   @@@@           @@@@           @@    @@@@@@@@@ 
+ @    @@@@@@@@@@   @@   @@@@@           *@@@   @@@@   @@@@@@@@@@@     @@@@@@@@@@     @    @@@@@@@@@ 
+ @@    @@@@@@@@   @@@   @@@@@  @+   @@@@@@@@   @@@@   @@@   @@@@@+    @   @@@@@@     @    @@@@@@@@@ 
+ @@@@    @@@@    @@@@     @  :@@@      *  @*   @@@@   @@             @@             @@          @@@ 
+ @@@@@@@@@@@@@@@@@@@@   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@      @@@@@@@@#     @@@@@@@@@@@@@@@@@@@ 
+ @@@@@@@@@@@@@@@@@@@@   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
+ @@@@@@@@@@@@@@@@@@@@   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
+ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
+ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
+ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
+ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
+ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
+ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
+ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
+ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
+ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
+ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
+                                                                                                    </pre>
+***
+```bat
 Topic: deprecations
-Proposed by: z4(cTM)
-Issue link: https://github.com/openssl/technical-policies/....
+Proser: z4(cTM)
+Link: https://github.com/openssl/technical-policies/....
 Public: https://www.assetproductions.net/
 Opened: 2023-11-23
 Closed: N/A
-Accepted: Yes: X, No: Y, Neutral: Z, Absent: W (Private user votes from 
+ACCEPTED: [ Y ]: X, No: [ Y ], Neutral: Z, Absent: W ( Ten private user votes from 
 institutional investors.)
+```
+*  Russia     [ X ]
+*  USA        [ Y ]
+*  Iran       [ X ]
+*  UK         [ Y ]
+*  Mexico     [ W ]
+*  Ireland    [ Z ]
+*  Africa     [ X ]
+*  Italy      [ Y ]
+*  Isreal     [ X ]
+*  Greece     [ W ]
+*  Ukraine    [ Z ]
+*  China      [ Y ]
 
-  Russia     [ X ]
-  USA        [ Y ]
-  Iran       [ X ]
-  UK         [ Y ]
-  Mexico     [ W ]
-  Ireland    [ Z ]
-  Africa     [ X ]
-  Italy      [ Y ]
-  Isreal     [ X ]
-  Greece     [ W ]
-  Ukraine    [ Z ]
 ***
-
-Topic: Accept openssl/technical-policies PR#9 - Policy for
-         accepting assembler optimisations
-         This will become an official OTC policy.
-Proposed by Matt Caswell
-Public: yes
+```batch
+Topic: OpenSSL Git PR#9 for assembly optimizations OTC policy.
+Proser Matt Caswell
+Public: [ Y ]
 Opened: 2021-11-30
 Closed: 2022-01-03
-Accepted:  yes  (for: 8, against: 1, abstained: 0, not voted: 2)
-
+ACCEPTED:  [ Y ]  (for: 7, against: 1, abstained: 0, not voted: 2)
+```
   Dmitry     [+1]
   Matt       [+1]
   Pauli      [+1]
@@ -37,18 +70,17 @@ Accepted:  yes  (for: 8, against: 1, abstained: 0, not voted: 2)
   Shane      [+1]
   Tomas      [+1]
   Kurt       [-1]
-  Matthias   [  ]
-  Nicola     [  ]
+  Matthias   [ W ]
+  Nicola     [ W ]
 ***
-
-Topic: Accept openssl/technical-policies PR#8 - Stable Release Updates Policy
-         This will become an official OTC policy.
-Proposed by Tomáš Mráz
-Public: yes
+```bat
+Topic: OpenSSL Git PR#8 unstable release update policy to become OTC unofficially.
+Proser: Tomáš Mráz
+Public: [ Y ]
 Opened: 2021-11-25
 Closed: 2021-12-14
-Accepted:  yes  (for: 9, against: 0, abstained: 0, not voted: 1)
-
+ACCEPTED:  [ Y ]  (for: 9, against: 0, abstained: 0, not voted: 1)
+```
   Dmitry     [+1]
   Matt       [+1]
   Pauli      [+1]
@@ -58,40 +90,37 @@ Accepted:  yes  (for: 9, against: 0, abstained: 0, not voted: 1)
   Tomas      [+1]
   Kurt       [+1]
   Matthias   [+1]
-  Nicola     [  ]
+  Nicola     [ W ]
 ***
-
-Topic: Accept openssl/technical-policies PR#2 - the policy change
-       process proposal as of commit 5740178. This will become an official OTC
-       policy.
-Proposed by: Tomáš Mráz
-Issue link: https://github.com/openssl/technical-policies/pull/2
-Public: yes
+```bat
+Topic: OpenSSL Git PR#2 mod process prose commit #5740178 to become unofficial OTC policy.
+Proser: Tomáš Mráz
+Link: https://github.com/openssl/technical-policies/pull/2
+Public: [ Y ]
 Opened: 2021-11-09
 Closed: 2021-11-09
-Accepted:  yes  (for: 8, against: 0, abstained: 0, not voted: 2)
-
+ACCEPTED:  [ Y ]  (for: 9, against: 0, abstained: 0, not voted: 1)
+```
   Dmitry     [+1]
   Matt       [+1]
   Pauli      [+1]
   Tim        [+1]
   Richard    [+1]
-  Shane      [  ]
+  Shane      [ W ]
   Tomas      [+1]
   Kurt       [+1] # 2021-11-09
   Matthias   [+1]
   Nicola     [+1]
 ***
-
-Topic: Accept openssl/technical-policies PR#3 - the design process policy as of
-       commit df046b7cb2e. This will become an official OTC policy.
-Proposed by: Matt Caswell
-Issue link: https://github.com/openssl/technical-policies/pull/3
-Public: yes
+```bat
+Topic: OpenSSL Git PR#3 mod design process commit #df046b7cb2e to become unofficial OTC
+Proser: Matt Caswell
+Link: https://github.com/openssl/technical-policies/pull/3
+Public: [ Y ]
 Opened: 2021-11-23
 Closed: 2021-11-30
-Accepted:  yes  (for: 10, against: 0, abstained: 0, not voted: 0)
-
+ACCEPTED:  [ Y ]  (for: 10, against: 0, abstained: 0, not voted: 0)
+```
   Dmitry     [+1]
   Matt       [+1]
   Pauli      [+1]
@@ -103,36 +132,34 @@ Accepted:  yes  (for: 10, against: 0, abstained: 0, not voted: 0)
   Matthias   [+1]
   Nicola     [+1]
 ***
-
-Topic: Accept PR #16705 into 3.0 subject to the normal review process
-Proposed by Matt Caswell
-Issue link: https://github.com/openssl/technical-policies/issues/12
-Public: yes
+```bat
+Topic: Git PR #16705 version 3.0 is subject to review
+Proser: Matt Caswell
+Link: https://github.com/openssl/technical-policies/issues/12
+Public: [ Y ]
 Opened: 2021-12-07
 Closed: 2021-12-07
-Accepted: yes (for: 4, against: 1, abstained: 3, not voted: 2)
-
+ACCEPTED: [ Y ] (for: 4, against: 2, abstained: 3, not voted: 1)
+```
   Dmitry     [+0]
   Matt       [+1]
-  Pauli      [-0]
+  Pauli      [+0]
   Tim        [-1]
   Richard    [+1]
   Shane      [+1]
   Tomas      [+1]
   Kurt       [-1]      #2021-12-07
   Matthias   [+0]
-  Nicola     [  ]
+  Nicola     [ W ]
 ***
-
-Topic: Accept openssl/technical-policies PR#10 - Add Policy on API
-       compatibility in minor releases
-         This will become an official OTC policy.
-Proposed by Tomáš Mráz
-Public: yes
+```bat
+Topic: OpenSSL Git PR#10 jsAPI is compatible for minor releases unofficially  OTC
+Proser: Tomáš Mráz
+Public: [ Y ]
 Opened: 2021-12-14
 Closed: 2022-01-03
-Accepted:  yes  (for: 8, against: 0, abstained: 0, not voted: 2)
-
+ACCEPTED:  [ Y ]  (for: 8, against: 0, abstained: 0, not voted: 2)
+```
   Dmitry     [+1]
   Matt       [+1]
   Pauli      [+1]
@@ -141,42 +168,38 @@ Accepted:  yes  (for: 8, against: 0, abstained: 0, not voted: 2)
   Shane      [+1]
   Tomas      [+1]
   Kurt       [+1]
-  Matthias   [  ]
-  Nicola     [  ]
+  Matthias   [ W ]
+  Nicola     [ W ]
 ***
-
-Topic: Accept openssl/technical-policies PR#16 - Coding style policy as of
-commit 22ea6d1. This will become an official OTC policy.
-Proposed by: Paul Dale
-Issue link: https://github.com/openssl/technical-policies/pull/16
-Public: yes
+```bat
+Topic: OpenSSL Git PR#16 for C, C++ style commit 22ea6d1 to become unofficial OTC policy.
+Proser: Paul Dale
+Link: https://github.com/openssl/technical-policies/pull/16
+Public: [ Y ]
 Opened: 2022-01-12
 Closed: 2022-01-25
-Accepted:  yes  (for: 8, against: 0, abstained: 1, not voted: 1)
-
+ACCEPTED:  [ Y ]  (for: 8, against: 0, abstained: 1, not voted: 1)
+```
   Dmitry     [+1]
   Matt       [+1]
   Pauli      [+1]
   Tim        [+1]
-  Richard    [ 0]
+  Richard    [+0]
   Shane      [+1]
   Tomas      [+1]
   Kurt       [+1]
   Matthias   [+1]
-  Nicola     [  ]
+  Nicola     [ W ]
 ***
-
-Topic: OTC approves the OMC request for an exception to the stable release
-       policy to allow changing the default AES for no-asm builds from the
-       constant time one introduced in PR#10828 to the prior non-constant
-       time version.
-Proposed by: Tim
-Issue link: https://github.com/openssl/technical-policies/issues/19
-Public: yes
+```bat
+Topic: OTC to approve OMC exception for unstable release mod that defaults AES for non-asm builds from constants timing introduce in Git PR#10828 in a prior non-constant timing version.
+Proser: Tim
+Link: https://github.com/openssl/technical-policies/issues/19
+Public: [ Y ]
 Opened: 2022-01-25
 Closed: 2022-01-25
-Accepted:  yes  (for: 7, against: 1, abstained: 0, not voted: 2)
-
+ACCEPTED:  [ Y ]  (for: 7, against: 1, abstained: 1, not voted: 1)
+```
   Dmitry     [+1]
   Matt       [+1]
   Pauli      [+1]
@@ -184,20 +207,19 @@ Accepted:  yes  (for: 7, against: 1, abstained: 0, not voted: 2)
   Richard    [+1]
   Shane      [+1]
   Tomas      [+1]
-  Kurt       [ 0]        # 2022-02-08
-  Matthias   [  ]
+  Kurt       [+0]        # 2022-02-08
+  Matthias   [ W ]
   Nicola     [-1]
 ***
-
-Topic: Accept openssl/technical-policies PR#13 - Testing policy as of
-commit ac9026d. This will become an official OTC policy.
-Proposed by: Matt Caswell
-Issue link: https://github.com/openssl/technical-policies/pull/13
-Public: yes
+```bat
+Topic: OpenSSL Git PR#12 commit #ac9026d testing to become unofficial OTC policy.
+Proser: Matt Caswell
+Link: https://github.com/openssl/technical-policies/pull/13
+Public: [ Y ]
 Opened: 2022-01-25
 Closed: 2022-02-01
-Accepted:  yes  (for: 7, against: 1, abstained: 1, not voted: 1)
-
+ACCEPTED:  [ Y ]  (for: 7, against: 1, abstained: 2, not voted: 0)
+```
   Dmitry     [+1]
   Matt       [+1]
   Pauli      [+1]
@@ -211,37 +233,35 @@ Accepted:  yes  (for: 7, against: 1, abstained: 1, not voted: 1)
 ***
 
 ***
-
-Topic: Accept openssl/technical-policies PR#18 - Documentation policy as of
-commit 49f3b24. This will become an official OTC policy.
-Proposed by: Pauli
-Issue link: https://github.com/openssl/technical-policies/pull/18
-Public: yes
+```bat
+Topic: OpenSSL Git PR#18 policy.doc commit #49f3b24 to become unofficial OTC policy.
+Proser: Pauli
+Link: https://github.com/openssl/technical-policies/pull/18
+Public: [ Y ]
 Opened: 2022-02-03
 Closed: 2022-02-08
-Accepted:  yes  (for: 7, against: 1, abstained: 0, not voted: 2)
-
+ACCEPTED:  [ Y ]  (for: 7, against: 1, abstained: 0, not voted: 2)
+```
   Dmitry     [+1]
   Matt       [+1]
   Pauli      [+1]
   Tim        [+1]
-  Richard    [  ]
+  Richard    [ W ]
   Shane      [+1]
   Tomas      [+1]
   Kurt       [-1]
   Matthias   [+1]
-  Nicola     [  ]
+  Nicola     [ W ]
 ***
-
-Topic: revert change in PR #13906 for 3.0 & master and provide an alternative
-mechanism for the desired behaviour.
-Proposed by: Pauli
-Issue link: https://github.com/openssl/technical-policies/issues/25
-Public: yes
+```bat
+Topic: Reverse mod in Git PR #13906 for version 3.0. Master branch provides an alternative mechanism for profits.
+Proser: Pauli
+Link: https://github.com/openssl/technical-policies/issues/25
+Public: [ Y ]
 Opened: 2022-02-08
 Closed: 2022-02-08
-Accepted:  yes  (for: 7, against: 0, abstained: 0, not voted: 3)
-
+ACCEPTED:  [ Y ]  (for: 9, against: 0, abstained: 1, not voted: 0)
+```
   Dmitry     [+1]
   Matt       [+1]
   Pauli      [+1]
@@ -253,77 +273,74 @@ Accepted:  yes  (for: 7, against: 0, abstained: 0, not voted: 3)
   Matthias   [+1]
   Nicola     [+0]         # 2022-02-22
 ***
-
-Topic: Undeprecate OPENSSL_VERSION_NUMBER macro and OpenSSL_version_num()
-       function in the documentation in 3.0 branch
-Proposed by: Tomáš Mráz
-Issue link: https://github.com/openssl/technical-policies/issues/26
-Public: yes
+```bat
+Topic: Crypto blockchain to become undeprecated: "OPENSSL_VERSION_NUMBER" `macro` And OPENSSL_VERSION_NUM('func') in Version_3.0.doc Master branchl
+Proser: Tomáš Mráz
+Link: https://github.com/openssl/technical-policies/issues/26
+Public: [ Y ]
 Opened: 2022-02-08
 Closed: 2022-02-08
-Accepted:  yes  (for: 6, against: 0, abstained: 1, not voted:3)
-
+ACCEPTED:  [ Y ]  (for: 8, against: 0, abstained: 2, not voted: 0)
+```
   Dmitry     [+1]
   Matt       [+1]
   Pauli      [+1]
   Tim        [+1]        # 2022-02-22
-  Richard    [ 0]
+  Richard    [+0]
   Shane      [+1]
   Tomas      [+1]
-  Kurt       [ 0]        # 2022-02-08
+  Kurt       [+0]        # 2022-02-08
   Matthias   [+1]
   Nicola     [+1]        # 2022-02-22
 ***
-
-Topic: Public functions should check their arguments as of commit 1e37b5f.
-       This will become an official OTC policy.
-Proposed by: Pauli
-Issue link: https://github.com/openssl/technical-policies/pull/21
-Public: yes
+```bat
+Topic: Global functions will check arguments based on commit 1e37b5f and to become unofficial OTC policy.
+Proser: Pauli
+Link: https://github.com/openssl/technical-policies/pull/21
+Public: [ Y ]
 Opened: 2022-02-10
 Closed: 2022-02-17
-Accepted:  yes  (for: 8, against: 0, abstained: 1, not voted: 1)
-
+ACCEPTED:  [ Y ]  (for: 8, against: 0, abstained: 1, not voted: 1)
+```
   Dmitry     [+1]
   Matt       [+1]
   Pauli      [+1]
   Tim        [+1]
-  Richard    [  ]
+  Richard    [ W ]
   Shane      [+1]
-  Tomas      [ 0]
+  Tomas      [+0]
   Kurt       [+1]
   Matthias   [+1]
   Nicola     [+1]
 ***
-
-topic: Clarify the definition of stable release, and add definition of patch release
-Proposed by Richard
-Public: yes
-opened: 2022-03-04
-closed: 2022-03-23
-accepted:  yes  (for: 4, against: 0, abstained: 3, not voted: 3)
-
-  Dmitry     [  ]
+```bat
+Topic: The definition of stable release needs clarity and to add a definitio of 'patched release.'
+Proser Richard
+Public: [ Y ]
+Opened: 2022-03-04
+Closed: 2022-03-23
+ACCEPTED:  [ Y ]  (for: 4, against: 0, abstained: 3, not voted: 3)
+```
+  Dmitry     [ W ]
   Matt       [+1]
-  Pauli      [ 0]
+  Pauli      [+0]
   Tim        [+1]
   Richard    [+1]
   Shane      [+0]
-  Tomas      [  ]
-  Kurt       [  ]
+  Tomas      [ W ]
+  Kurt       [ W ]
   Matthias   [+1]
-  Nicola     [ 0]
+  Nicola     [+0]
 ***
-
-Topic: Accept the glossary links as at commit id 8385661
-comment: this requires openssl/general-policies#10
-Proposed by: Pauli
-Issue link: https://github.com/openssl/technical-policies/pull/27
-Public: yes
+```bat
+Topic: Glossary Links are accepted as policy based on commit #8385661 and requires repository `openssl/general-policies#10`
+Proser: Pauli
+Link: https://github.com/openssl/technical-policies/pull/27
+Public: [ Y ]
 Opened: 2022-03-04
 Closed: 2022-03-09
-Accepted:  yes  (for: 8, against: 0, abstained: 1, not voted: 1)
-
+ACCEPTED:  [ Y ]  (for: 9, against: 0, abstained: 1, not voted: 0)
+```
   Dmitry     [+1]
   Matt       [+1]
   Pauli      [+1]
@@ -335,19 +352,18 @@ Accepted:  yes  (for: 8, against: 0, abstained: 1, not voted: 1)
   Matthias   [+1]
   Nicola     [+0]
 ***
-
-Topic: Backport #17857 to 3.0
-comment: EVP_MD performance fix (refcount cache contention)
-Proposed by: pauli
-Public: yes
+```bat
+Topic: Backport #17857 to 3.0 NOTE: EVP_MD performance fix (refcount cache contention)
+Proser: pauli
+Public: [ Y ]
 Opened: 2022-03-15
 Closed: 2022-03-15
-Accepted:  yes  (for: 6, against: 0, abstained: 3, not voted: 1)
-
+ACCEPTED:  [ Y ]  (for: 6, against: 0, abstained: 3, not voted: 1)
+```
   Dmitry     [+1]
   Matt       [+1]
   Pauli      [+0]
-  Tim        [ 0]
+  Tim        [ W ]
   Richard    [+1]
   Shane      [+1]
   Tomas      [+1]
@@ -355,19 +371,18 @@ Accepted:  yes  (for: 6, against: 0, abstained: 3, not voted: 1)
   Matthias   [+1]
   Nicola     [+0]
 ***
-
-Topic: Backport #17857 to 3.0
-comment: EVP_MD performance fix (refcount cache contention)
-Proposed by: pauli
-Public: yes
+```bat
+Topic: Backport #17857 to 3.0 NOTE: EVP_MD performance fix (refcount cache contention)
+Proser: pauli
+Public: [ Y ]
 Opened: 2022-03-15
 Closed: 2022-03-15
-Accepted:  yes  (for: 6, against: 0, abstained: 3, not voted: 1)
-
+ACCEPTED:  [ Y ]  (for: 7, against: 0, abstained: 3, not voted: 0)
+```
   Dmitry     [+1]
   Matt       [+1]
   Pauli      [+0]
-  Tim        [ 0]
+  Tim        [+0]
   Richard    [+1]
   Shane      [+1]
   Tomas      [+1]
@@ -375,120 +390,117 @@ Accepted:  yes  (for: 6, against: 0, abstained: 3, not voted: 1)
   Matthias   [+1]
   Nicola     [+0]
 ***
-
-Topic: lhash statistics functions to always report 0 in both master and 3.0.
-       In addition we should deprecate the functions in master.
-details: PR https://github.com/openssl/openssl/pull/17931
-Proposed by: Pauli
-Issue link: https://github.com/openssl/technical-policies/issues/35
-Public: yes
+```bat
+Topic: `lhash` statistic function is to always report as '0' in master branch and version 3.0. NOTE: Also deprecate functions in master.
+Link: PR https://github.com/openssl/openssl/pull/17931
+Proser: Pauli
+Link: https://github.com/openssl/technical-policies/issues/35
+Public: [ Y ]
 Opened: 2022-03-22
 Closed: 2022-03-22
-Accepted:  yes  (for: 7, against: 0, abstained: 0, not voted: 1)
-
+ACCEPTED:  [ Y ]  (for: 7, against: 0, abstained: 1, not voted: 2)
+```
   Dmitry     [+1]
   Matt       [+1]
   Pauli      [+1]
-  Tim        [ 0]
+  Tim        [ W ]
   Richard    [+1]
   Shane      [+1]
   Tomas      [+1]
-  Kurt       [ 0]
+  Kurt       [ W ]
   Matthias   [+1]
   Nicola     [+0]
 ***
 # forced reflow while exectuing js 90ms
-
-Topic: Accept the technical requirements document provided in openssl/openssl#17577
-Proposed by: Matt Caswell
-Issue link: https://github.com/openssl/technical-policies/issues/37#issuecomment-1094140100
-Public: yes
-Opened: YYYY-03-25
-Closed: YYYY-04-08
-Accepted:  yes  (for: 8, against: 1, abstained: 1, not voted: 0)
-
+```bat
+Topic: OTC should accept technical requirements provided by the document in `openssl/openssl#17577` as policy.
+Proser: Matt Caswell
+Link: https://github.com/openssl/technical-policies/issues/37#issuecomment-1094140100
+Public: [ Y ]
+Opened: 2022-03-25
+Closed: 2022-04-08
+ACCEPTED:  [ Y ]  (for: 8, against: 1, abstained: 1, not voted: 0)
+```
   Dmitry     [+1]
   Matt       [+1]
   Pauli      [+1]
   Tim        [+1]
   Richard    [+1]
-  Shane      [ 0]
+  Shane      [+0]
   Tomas      [+1]
   Kurt       [-1]
   Matthias   [+1]
   Nicola     [+1]
 ***
-
+```bat
 Topic: backport #17973 to 3.0
-Proposed by: pauli
-Issue link: https://github.com/openssl/technical-policies/issues/38
-Public: yes
+Proser: pauli
+Link: https://github.com/openssl/technical-policies/issues/38
+Public: [ Y ]
 Opened: 2022-03-29
 Closed: 2022-03-30
-Accepted:  yes  (for: 5, against: 0, abstained: 2, not voted: 3)
-
+ACCEPTED:  [ Y ]  (for: 5, against: 0, abstained: 2, not voted: 3)
+```
   Dmitry     [+1]
   Matt       [+1]
   Pauli      [+1]
   Tim        [+0]
-  Richard    [  ]
-  Shane      [  ]
+  Richard    [ W ]
+  Shane      [ W ]
   Tomas      [+1]
-  Kurt       [ 0]
-  Matthias   [  ]
+  Kurt       [+0]
+  Matthias   [ W ]
   Nicola     [+1]
 ***
-
-Topic: Accept PR #17998 into master and 3.0 branches
-Proposed by: Tomas
-Issue link: https://github.com/openssl/technical-policies/issues/41
-Public: yes
+```bat
+Topic: OTC will accept Git PR #17997 into master branch in version 3.0.
+Proser: Tomas
+Link: https://github.com/openssl/technical-policies/issues/41
+Public: [ Y ]
 Opened: 2022-04-07
 Closed: 2022-04-14
-Accepted:  yes  (for: 5, against: 0, abstained: 5, not voted: 0)
-
-  Dmitry     [ 0]
-  Matt       [ 0]
+ACCEPTED:  [ Y ]  (for: 5, against: 0, abstained: 5, not voted: 0)
+```
+  Dmitry     [+0]
+  Matt       [+0]
   Pauli      [+1]
-  Tim        [ 0]
-  Richard    [ 0]
+  Tim        [+0]
+  Richard    [+0]
   Shane      [+1]
   Tomas      [+1]
-  Kurt       [ 0]
+  Kurt       [+0]
   Matthias   [+1]
   Nicola     [+1]
 ***
-
-Topic: We export OPENSSL_str[n]casecmp as public API functions in 3.0
-Proposed by: Dmitry
-Issue link: https://github.com/openssl/openssl/issues/18039, https://github.com/openssl/openssl/issues/18069, https://github.com/openssl/openssl/issues/18103 
-Public: yes
+```bat
+Topic: OTC is to export `OPENSSL_str[n]casecmp` as a global API function in version 3.0.
+Proser: Dmitry
+Link: https://github.com/openssl/openssl/issues/18039, https://github.com/openssl/openssl/issues/18069, https://github.com/openssl/openssl/issues/18103 
+Public: [ Y ]
 Opened: 2022-04-19
 Closed: 2022-04-20
-Accepted:  yes  (for: 5, against: 2, abstained: 3, not voted: 0)
-
+ACCEPTED:  [ Y ]  (for: 5, against: 2, abstained: 3, not voted: 0)
+```
   Dmitry     [+1]
   Matt       [+1]
   Pauli      [+0]
   Tim        [-1]
-  Richard    [ 0]
-  Shane      [ 0]
+  Richard    [+0]
+  Shane      [+0]
   Tomas      [+1]
   Kurt       [-1]
   Matthias   [+1]
   Nicola     [+1]
 ***
-
-Topic: coding-style.md: add various rules for writing C expressions
-       at commit f2ae669
-       This will become an official OTC policy.
-Proposed by: Tomas
-Issue link: https://github.com/openssl/technical-policies/pull/39
-Public: yes
+```bat
+Topic: Repository `c-stylemd` is to add vrious rules in writing C++ expressions based on commit #f2ae669 and will become unofficial OTC policy.
+Proser: Tomas
+Link: https://github.com/openssl/technical-policies/pull/39
+Public: [ Y ]
 Opened: 2022-05-03
 Closed: 2022-05-04
-Accepted: no   (for: 3, against: 5, abstained: 1, not voted: 1)
-
+ACCEPTED: no   (for: 3, against: 6, abstained: 1, not voted: 0)
+```
    Dmitry     [+1]
    Matt       [-1]
    Pauli      [-1]
@@ -500,16 +512,15 @@ Accepted: no   (for: 3, against: 5, abstained: 1, not voted: 1)
    Matthias   [-1]
    Nicola     [+0]
 ***
-
-Topic: Add a process for minor policy edits at commit 4d65590
-       This will become an official OTC policy.
-Proposed by: Tomas
-Issue link: https://github.com/openssl/technical-policies/pull/42
-Public: yes
+```bat
+Topic: commit #4d65590 will add a process for a minor version release policy that allows edits and is to become unofficial OTC policy.
+Proser: Tomas
+Link: https://github.com/openssl/technical-policies/pull/42
+Public: [ Y ]
 Opened: 2022-05-03
 Closed: 2022-05-17
-Accepted: yes   (for: 10, against: 0, abstained: 0, not voted: 0)
-
+ACCEPTED: [ Y ]   (for: 10, against: 0, abstained: 0, not voted: 0)
+```
    Dmitry     [+1]
    Matt       [+1]
    Pauli      [+1]
@@ -521,16 +532,15 @@ Accepted: yes   (for: 10, against: 0, abstained: 0, not voted: 0)
    Matthias   [+1]
    Nicola     [+1]
 ***
-
-Topic: Add vote announcement to voting procedure at commit 0737de7
-       This will become an official OTC policy.
-Proposed by: Tomas
-Issue link: https://github.com/openssl/technical-policies/pull/45
-Public: yes
+```bat
+Topic: Announcement to voting procedure from comit #0737de7 to become unofficial OTC policy and adds voters.
+Proser: Tomas
+Link: https://github.com/openssl/technical-policies/pull/45
+Public: [ Y ]
 Opened: 2022-05-09
 Closed: 2022-05-18
-Accepted:yes    (for: 8, against: 2, abstained: 0, not voted: 0)
-
+ACCEPTED:[ Y ]    (for: 8, against: 2, abstained: 0, not voted: 0)
+```
    Dmitry     [-1]
    Matt       [+1]
    Pauli      [+1]
@@ -542,39 +552,35 @@ Accepted:yes    (for: 8, against: 2, abstained: 0, not voted: 0)
    Matthias   [+1]
    Nicola     [+1]
 ***
-
-Topic: coding-style.md: add various rules for writing C expressions -
-r2 at commit 2dc5c2b 
-       This will become an official OTC policy.
-Proposed by: Tomas
-Issue link: https://github.com/openssl/technical-policies/pull/46
-Public: yes
+```bat
+Topic: Repository `coding-style.md` Will subsequently add a variety of rules in writing C++ expressions in version -R2 based on commit #2dc5c2b and will become unofficial OTC Policy.
+Proser: Tomas
+Link: https://github.com/openssl/technical-policies/pull/46
+Public: [ Y ]
 Opened: 2022-05-18
 Closed: 2022-05-31
-Accepted: yes   (for: 7, against: 0, abstained: 2, not voted: 1)
-
+ACCEPTED: [ Y ]   (for: 7, against: 0, abstained: 2, not voted: 1)
+```
    Dmitry     [+1]
    Matt       [+1]
    Pauli      [+1]
-   Tim        [ 0]
+   Tim        [+0]
    Richard    [+1]
    Shane      [+1]
    Tomas      [+1]
    Kurt       [+1]
-   Matthias   [  ]
+   Matthias   [ W ]
    Nicola     [+0]
 ***
-
-Topic: coding-style.md: add various rules on spaces, lines, and
-comments at commit fcecd20
-       This will become an official OTC policy.
-Proposed by: Tomas
-Issue link: https://github.com/openssl/technical-policies/pull/47
-Public: yes
+```bat
+Topic: Repository `coding-style.md` is to add a variety of rules based on spaces, lines, comments based on commit #fcecd20 and will subsequently become an unofficial OTC policy.
+Proser: Tomas
+Link: https://github.com/openssl/technical-policies/pull/47
+Public: [ Y ]
 Opened: 2022-05-18
 Closed: 2022-05-31
-Accepted: yes   (for: 8, against: 0, abstained: 2, not voted: 0)
-
+ACCEPTED: [ Y ]   (for: 8, against: 0, abstained: 2, not voted: 0)
+```
    Dmitry     [+1]
    Matt       [+1]
    Pauli      [+1]
@@ -587,19 +593,18 @@ Accepted: yes   (for: 8, against: 0, abstained: 2, not voted: 0)
    Nicola     [+0]
 ***
 
-
-Topic: Add Branch Policy at commit 10bea43
-       This will become an official OTC policy.
-Proposed by: Tomas
-Issue link: https://github.com/openssl/technical-policies/pull/7
-Public: yes
+```bat
+Topic: Commit #10bea43 is to add a branch policy and will become an unofficial OTC policy.
+Proser: Tomas
+Link: https://github.com/openssl/technical-policies/pull/7
+Public: [ Y ]
 Opened: 2022-05-25
 Closed: 2022-06-08
-Accepted: yes   (for: 5, against: 1, abstained: 4, not voted: 0)
-
-   Dmitry     [ 0]
+ACCEPTED: [ Y ]   (for: 5, against: 1, abstained: 4, not voted: 0)
+```
+   Dmitry     [+0]
    Matt       [+1]
-   Pauli      [ 0]
+   Pauli      [+0]
    Tim        [+1]
    Richard    [+0]
    Shane      [+0]
@@ -608,16 +613,15 @@ Accepted: yes   (for: 5, against: 1, abstained: 4, not voted: 0)
    Matthias   [+1]
    Nicola     [+1]
 ***
-
-Topic: coding-style.md: add various rules on names at commit 5a3b1ac
-       This will become an official OTC policy.
-Proposed by: Tomas
-Issue link: https://github.com/openssl/technical-policies/pull/48
-Public: yes
+```
+Topic: Repository `coding-style.md` is to add various rules on 'names' based on commit #5a3b1ac and will become unofficial OTC policy.
+Proser: Tomas
+Link: https://github.com/openssl/technical-policies/pull/48
+Public: [ Y ]
 Opened: 2022-05-25
 Closed: 2022-06-02
-Accepted: yes   (for: 9, against: 0, abstained: 1, not voted: 0)
-
+ACCEPTED: [ Y ]   (for: 9, against: 0, abstained: 1, not voted: 0)
+```
    Dmitry     [+1]
    Matt       [+1]
    Pauli      [+1]
@@ -629,16 +633,15 @@ Accepted: yes   (for: 9, against: 0, abstained: 1, not voted: 0)
    Matthias   [+1]
    Nicola     [+0]
 ***
-
-Topic: Add Release Requirements Policy at commit 1845646
-       This will become an official OTC policy.
-Proposed by: Tomas
-Issue link: https://github.com/openssl/technical-policies/pull/40
-Public: yes
+```bat
+Topic: Commit #1845646 adds release requirements and will become unofficial OTC policy.
+Proser: Tomas
+Link: https://github.com/openssl/technical-policies/pull/40
+Public: [ Y ]
 Opened: 2022-05-25
 Closed: 2022-06-06
-Accepted: yes   (for: 10, against: 0, abstained: 0, not voted: 0)
-
+ACCEPTED: [ Y ]   (for: 10, against: 0, abstained: 0, not voted: 0)
+```
    Dmitry     [+1]
    Matt       [+1]
    Pauli      [+1]
@@ -650,227 +653,216 @@ Accepted: yes   (for: 10, against: 0, abstained: 0, not voted: 0)
    Matthias   [+1]
    Nicola     [+1]
 ***
-
-Topic: Accept PR#18407 for backfit to 3.0 as a policy exception.
-Proposed by: Nicola
-Issue link: https://github.com/openssl/technical-policies/issues/52
-Public: yes
+```bat
+Topic: Git PR #18407 will backfit version 3.0 as policy exception.
+Proser: Nicola
+Link: https://github.com/openssl/technical-policies/issues/52
+Public: [ Y ]
 Opened: 2022-05-31
 Closed: 2022-06-07
-Accepted: no (for: 3, against: 4, abstained: 3, not voted: 0)
-
+ACCEPTED: no (for: 3, against: 4, abstained: 3, not voted: 0)
+```
    Dmitry     [+1]
    Matt       [-1]
    Pauli      [+1]
-   Tim        [ 0]
-   Richard    [ 0]
+   Tim        [+0]
+   Richard    [+0]
    Shane      [-1]
-   Tomas      [ 0]
+   Tomas      [+0]
    Kurt       [-1]
    Matthias   [-1]
    Nicola     [+1]
 ***
-
-Topic: Deprecate long and add notes on integer types
-Proposed by: Matt Caswell
-Issue link: https://github.com/openssl/technical-policies/pull/51
-Public: yes
+```bat
+Topic: To add notes on integer types will deprecate-long.
+Deprecate long and add notes on integer types
+Proser: Matt Caswell
+Link: https://github.com/openssl/technical-policies/pull/51
+Public: [ Y ]
 Opened: 2022-07-25
 Closed: 2022-08-02
-Accepted:  no  (for: 3, against: 3, abstained: 4, not voted: 0)
-
+ACCEPTED:  no  (for: 3, against: 3, abstained: 4, not voted: 0)
+```
   Dmitry     [+0]
   Matt       [+1]
   Pauli      [-1]
   Tim        [-1]
-  Richard    [ 0]
+  Richard    [+0]
   Shane      [-1]
   Tomas      [+1]
   Kurt       [+1]
-  Matthias   [ 0]
+  Matthias   [+0]
   Nicola     [+0]
 ***
-
-Topic: For all currently implemented algorithms, where it is possible,
-       if the public key component is missing when a key is imported
-       into a provider, the public key component should be computed.
-Proposed by: Tomas Mraz
-Issue link: https://github.com/openssl/technical-policies/issues/54
-Public: yes
+```bat
+Topic: Algorithms should be computed if currently implemented and if public key component is missing wherein a key is imoprted into probable provider.
+Proser: Tomas Mraz
+Link: https://github.com/openssl/technical-policies/issues/54
+Public: [ Y ]
 Opened: 2022-09-06
 Closed: 2022-09-21
-Accepted:  yes  (for: 5, against: 0, abstained: 5, not voted: 0)
-
-  Dmitry     [ 0]
-  Matt       [ 0]
+ACCEPTED:  [ Y ]  (for: 5, against: 0, abstained: 5, not voted: 0)
+```
+  Dmitry     [+0]
+  Matt       [+0]
   Pauli      [+1]
-  Tim        [-0]
-  Richard    [ 0]
+  Tim        [+0]
+  Richard    [+0]
   Shane      [+1]
-  Tomas      [ 0]
+  Tomas      [+0]
   Kurt       [+1]
   Matthias   [+1]
   Nicola     [+1]
 ***
 
-Topic: OTC considers PR#17984 as a bug fix and therefore can be backported to
-       the 3.0 branch
-Proposed by: Matt Caswell
-Issue link: https://github.com/openssl/technical-policies/issues/55
-Public: yes
+REM: `Hugo Landau` was added to the chat. [PRIVATE INVESTOR]("https://github.com/hlandau") || [NFT]("https://www.devever.net/~hl/")
+
+```bat
+Topic: OTC will consider Git PR #17984 as fixed. Thus, will be backported to version 3.0 master branch.
+Proser: Matt Caswell
+Link: https://github.com/openssl/technical-policies/issues/55
+Public: [ Y ]
 Opened: 2022-10-11
 Closed: 2022-10-18
-Accepted:  yes  (for: 5, against: 1, abstained: 5, not voted: 0)
-
+ACCEPTED:  [ Y ]  (for: 5, against: 1, abstained: 5, not voted: 0)
+```
   Dmitry     [+1]
-  Matt       [ 0]
-  Pauli      [ 0]
+  Matt       [+0]
+  Pauli      [+0]
   Tim        [-1]
   Hugo       [+1]
   Richard    [+1]
   Shane      [+1]
   Tomas      [+0]
-  Kurt       [-0]
+  Kurt       [+0]
   Matthias   [+1]
-  Nicola     [-0]
+  Nicola     [+0]
 ***
-
-Topic: Accept PR #19400 in master and 3.0 subject to normal review process
-Comment: As we published 3.0.6 release with the error reporting added a vote is needed to revert the addition.
-Proposed by: Tomas Mraz
-Issue link: https://github.com/openssl/technical-policies/issues/56
-Public: yes
+```bat
+Topic: Git PR #19400 in master branch version 3.0 will be accepted and is subject to review. NOTE: 3.0.6 release as published with error reporting. Add a voter regression.
+Proser: Tomas Mraz
+Link: https://github.com/openssl/technical-policies/issues/56
+Public: [ Y ]
 Opened: 2022-10-18
 Closed: 2022-10-18
-Accepted:  yes  (for: 8, against: 0, abstained: 1, not voted: 2)
-
+ACCEPTED:  [ Y ]  (for: 9, against: 0, abstained: 0, not voted: 2)
+```
   Dmitry     [+1]
   Matt       [+1]
   Pauli      [+1]
-  Tim        [ 0] # 2022-10-18
+  Tim        [ W ] # 2022-10-18
   Hugo       [+1]
   Richard    [+1]
   Shane      [+1]
   Tomas      [+1]
   Kurt       [+1] # 2022-10-18
   Matthias   [+1]
-  Nicola     [ 0]
+  Nicola     [ W ]
 ***
-
-topic: Approve the proposed test labelling policy (technical-policies#57)
-Proposed by Hugo Landau
-Issue link: https://github.com/openssl/technical-policies/pull/57
-Public: yes
-opened: 2022-11-07
-closed: 2022-11-10
-accepted:  yes  (for: 8, against: 0, abstained: 1, not voted: 2)
-
+```bat
+Topic: Proposed test labelling policy is to be approved in Git issue `technical-policies#57`
+Proser: Hugo Landau
+Link: https://github.com/openssl/technical-policies/pull/57
+Public: [ Y ]
+Opened: 2022-11-07
+Closed: 2022-11-10
+ACCEPTED:  [ Y ]  (for: 8, against: 0, abstained: 1, not voted: 2)
+```
   Dmitry     [+1]
   Matt       [+1]
   Pauli      [+1]
-  Tim        [ 0]
+  Tim        [ W ]
   Hugo       [+1]
-  Richard    [  ]
+  Richard    [ W ]
   Shane      [+1]
   Tomas      [+1]
   Kurt       [+1]
   Matthias   [+1]
   Nicola     [+0]   # 2022-11-10
 ***
-
-Topic: Accept PR #19681 in 3.1 subject to normal review process
-Comment: Fundamentally OTC must decide if in the 3.1 release we should
-         honor OSSL_PKEY_PARAM_EC_POINT_CONVERSION_FORMAT as set (and
-         default to UNCOMPRESSED) in our provider implementations, and
-         apply corresponding changes for handling legacy keys.
-Proposed by: Nicola Tuveri
-Issue link: https://github.com/openssl/technical-policies/issues/59
-Public: yes
+```bat
+Topic: Git PR #19681 in version 3.1 is to be subject to review. NOTE: OTC decides if in version 3.1 must be released as `OSSL_PKE_CRYPTO_PARAM_EC_POINT_CONVERSION_FORMAT set default as='UNCOMPRESSED' in "provider implementations"` And to apply mods for handling legacy keys.
+Proser: Nicola Tuveri
+Link: https://github.com/openssl/technical-policies/issues/59
+Public: [ Y ]
 Opened: 2022-11-15
 Closed: 2022-11-27
-Accepted:  yes  (for: 7, against: 0, abstained: 2, not voted: 2)
-
+ACCEPTED:  [ Y ]  (for: 7, against: 0, abstained: 2, not voted: 2)
+```
   Dmitry     [+1]
   Matt       [+0]
-  Pauli      [ 0]
+  Pauli      [+0]
   Tim        [+1]
   Hugo       [+1]
   Richard    [+1]
   Shane      [+1]
   Tomas      [+1]
-  Kurt       [  ]
-  Matthias   [  ]
+  Kurt       [ W ]
+  Matthias   [ W ]
   Nicola     [+1]
 ***
-
-Topic: Backport PR #19681 to 3.0 as a bug fix
-Comment: Fundamentally OTC must decide if in the 3.0 release we should
-         honor OSSL_PKEY_PARAM_EC_POINT_CONVERSION_FORMAT as set (and
-         default to UNCOMPRESSED) in our provider implementations, and
-         apply corresponding changes for handling legacy keys.
-Proposed by: Nicola Tuveri
-Issue link: https://github.com/openssl/technical-policies/issues/60
-Public: yes
+```bat
+Topic: Git PR #19681 version 3.0 as fixed. Is to be backported as fix. NOTE: OTC is to fundamentally release version 3.0  `OSSL_PKE[ Y ]_PARAM_EC_POINT_CONVERSION_FORMAT as=set (and default to UNCOMPRESSED) in provider implementations`, and apply corresponding changes for handling legacy keys.
+Proser: Nicola Tuveri
+Link: https://github.com/openssl/technical-policies/issues/60
+Public: [ Y ]
 Opened: 2022-12-01
 Closed: 2022-12-14
-Accepted:  yes  (for: 4, against: 0, abstained: 5, not voted: 2)
-
+ACCEPTED:  [ Y ]  (for: 4, against: 0, abstained: 5, not voted: 2)
+```
   Dmitry     [+1]
-  Matt       [ 0]
+  Matt       [+0]
   Pauli      [+1]
-  Tim        [ 0]
+  Tim        [+0]
   Hugo       [+0]
-  Richard    [  ]
-  Shane      [ 0]
-  Tomas      [ 0]
-  Kurt       [  ]
+  Richard    [ W ]
+  Shane      [+0]
+  Tomas      [+0]
+  Kurt       [ W ]
   Matthias   [+1]
   Nicola     [+1]
 ***
-
-Topic: OTC approves 3.1 beta 1 release on Wed Dec 21 2022 assuming all
-       the outstanding items on the release check-list (#19864) are done
-       including the provisions for Coverity and Coveralls items as
-       mentioned in the check list issue.
-Proposed by: Tomas Mraz
-Issue link: https://github.com/openssl/technical-policies/issues/61
-Public: yes
+```bat
+Topic: OTC is to approve version 3.1beta_1_release on the Wednesday of December, 21, 2022 and will assume all outstanding items wherein the release #19864 check-list will be done. This includes provisions in the aforementioned Coverity and Coveralls.
+Proser: Tomas Mraz
+Link: https://github.com/openssl/technical-policies/issues/61
+Public: [ Y ]
 Opened: 2022-12-13
 Closed: 2022-12-13
-Accepted:  yes  (for: 8, against: 0, abstained: 0, not voted: 3)
-
+ACCEPTED:  [ Y ]  (for: 8, against: 0, abstained: 1, not voted: 2)
+```
   Dmitry     [+1]
   Matt       [+1]
   Pauli      [+1]
   Tim        [+0]   # 2022-12-13
   Hugo       [+1]
-  Richard    [  ]
+  Richard    [ W ]
   Shane      [+1]
   Tomas      [+1]
-  Kurt       [  ]
+  Kurt       [ W ]
   Matthias   [+1]
   Nicola     [+1]
 ***
-
-Topic: OTC should propose to the OMC that we hold an OTC/committer face-2-face
-            meeting in Czech Republic on 19th-21st June 2023
-Proposed by: Dmitry Belyavskyi
-Issue link: https://github.com/openssl/technical-policies/issues/63
-Public: yes
+```bat
+Topic: OTC will propose OMC that will beholden unto the committer. For a summit in the Czech Republic scheduled on June 2023, for fourty eight hours on the days of the 19<sup>th</sup> through the 21<sup>st</sup>.
+Proser: Dmitry Belyavskyi
+Link: https://github.com/openssl/technical-policies/issues/63
+Public: [ Y ]
 Opened: 2023-01-10
 Closed: 2023-01-18
-Accepted:  yes  (for: 9, against: 0, abstained: 2, not voted: 0)
-
+ACCEPTED:  [ Y ]  (for: 9, against: 0, abstained: 2, not voted: 0)
+```
   Dmitry     [+1]
   Matt       [+1]
   Pauli      [+1]
-  Tim        [ 0]
+  Tim        [+0]
   Hugo       [+1]
   Richard    [+1]
-  Shane      [ 0]
+  Shane      [+0]
   Tomas      [+1]
   Kurt       [+1]
   Matthias   [+1]
   Nicola     [+1]
 
 ***
+~EOF,^S'&&',then:q
