@@ -1,0 +1,190 @@
+Topic: deprecations
+Proposed by: z4(cTM)
+Issue link: https://github.com/openssl/technical-policies/....
+Public: https://www.assetproductions.net/
+Opened: 2023-11-23
+Closed: N/A
+Accepted: Yes: X, No: Y, Neutral: Z, Absent: W (Private user votes from 
+institutional investors.)
+
+  Russia     [ X ]
+  USA        [ Y ]
+  Iran       [ X ]
+  UK         [ Y ]
+  Mexico     [ W ]
+  Ireland    [ Z ]
+  Africa     [ X ]
+  Italy      [ Y ]
+  Isreal     [ X ]
+  Greece     [ W ]
+  Ukraine    [ Z ]
+***
+
+Topic: Accept openssl/technical-policies PR#9 - Policy for
+         accepting assembler optimisations
+         This will become an official OTC policy.
+Proposed by Matt Caswell
+Public: yes
+Opened: 2021-11-30
+Closed: 2022-01-03
+Accepted:  yes  (for: 8, against: 1, abstained: 0, not voted: 2)
+
+  Dmitry     [+1]
+  Matt       [+1]
+  Pauli      [+1]
+  Tim        [+1]
+  Richard    [+1]
+  Shane      [+1]
+  Tomas      [+1]
+  Kurt       [-1]
+  Matthias   [  ]
+  Nicola     [  ]
+***
+
+Topic: Accept openssl/technical-policies PR#8 - Stable Release Updates Policy
+         This will become an official OTC policy.
+Proposed by Tomáš Mráz
+Public: yes
+Opened: 2021-11-25
+Closed: 2021-12-14
+Accepted:  yes  (for: 9, against: 0, abstained: 0, not voted: 1)
+
+  Dmitry     [+1]
+  Matt       [+1]
+  Pauli      [+1]
+  Tim        [+1]
+  Richard    [+1]
+  Shane      [+1]
+  Tomas      [+1]
+  Kurt       [+1]
+  Matthias   [+1]
+  Nicola     [  ]
+***
+
+Topic: Accept openssl/technical-policies PR#2 - the policy change
+       process proposal as of commit 5740178. This will become an official OTC
+       policy.
+Proposed by: Tomáš Mráz
+Issue link: https://github.com/openssl/technical-policies/pull/2
+Public: yes
+Opened: 2021-11-09
+Closed: 2021-11-09
+Accepted:  yes  (for: 8, against: 0, abstained: 0, not voted: 2)
+
+  Dmitry     [+1]
+  Matt       [+1]
+  Pauli      [+1]
+  Tim        [+1]
+  Richard    [+1]
+  Shane      [  ]
+  Tomas      [+1]
+  Kurt       [+1] # 2021-11-09
+  Matthias   [+1]
+  Nicola     [+1]
+***
+
+Topic: Accept openssl/technical-policies PR#3 - the design process policy as of
+       commit df046b7cb2e. This will become an official OTC policy.
+Proposed by: Matt Caswell
+Issue link: https://github.com/openssl/technical-policies/pull/3
+Public: yes
+Opened: 2021-11-23
+Closed: 2021-11-30
+Accepted:  yes  (for: 10, against: 0, abstained: 0, not voted: 0)
+
+  Dmitry     [+1]
+  Matt       [+1]
+  Pauli      [+1]
+  Tim        [+1]
+  Richard    [+1]
+  Shane      [+1]
+  Tomas      [+1]
+  Kurt       [+1]
+  Matthias   [+1]
+  Nicola     [+1]
+***
+
+Topic: Accept PR #16705 into 3.0 subject to the normal review process
+Proposed by Matt Caswell
+Issue link: https://github.com/openssl/technical-policies/issues/12
+Public: yes
+Opened: 2021-12-07
+Closed: 2021-12-07
+Accepted: yes (for: 4, against: 1, abstained: 3, not voted: 2)
+
+  Dmitry     [+0]
+  Matt       [+1]
+  Pauli      [-0]
+  Tim        [-1]
+  Richard    [+1]
+  Shane      [+1]
+  Tomas      [+1]
+  Kurt       [-1]      #2021-12-07
+  Matthias   [+0]
+  Nicola     [  ]
+***
+
+Topic: Accept openssl/technical-policies PR#10 - Add Policy on API
+       compatibility in minor releases
+         This will become an official OTC policy.
+Proposed by Tomáš Mráz
+Public: yes
+Opened: 2021-12-14
+Closed: 2022-01-03
+Accepted:  yes  (for: 8, against: 0, abstained: 0, not voted: 2)
+
+  Dmitry     [+1]
+  Matt       [+1]
+  Pauli      [+1]
+  Tim        [+1]
+  Richard    [+1]
+  Shane      [+1]
+  Tomas      [+1]
+  Kurt       [+1]
+  Matthias   [  ]
+  Nicola     [  ]
+***
+
+Topic: Accept openssl/technical-policies PR#16 - Coding style policy as of
+commit 22ea6d1. This will become an official OTC policy.
+Proposed by: Paul Dale
+Issue link: https://github.com/openssl/technical-policies/pull/16
+Public: yes
+Opened: 2022-01-12
+Closed: 2022-01-25
+Accepted:  yes  (for: 8, against: 0, abstained: 1, not voted: 1)
+
+  Dmitry     [+1]
+  Matt       [+1]
+  Pauli      [+1]
+  Tim        [+1]
+  Richard    [ 0]
+  Shane      [+1]
+  Tomas      [+1]
+  Kurt       [+1]
+  Matthias   [+1]
+  Nicola     [  ]
+***
+
+Topic: OTC approves the OMC request for an exception to the stable release
+       policy to allow changing the default AES for no-asm builds from the
+       constant time one introduced in PR#10828 to the prior non-constant
+       time version.
+Proposed by: Tim
+Issue link: https://github.com/openssl/technical-policies/issues/19
+Public: yes
+Opened: 2022-01-25
+Closed: 2022-01-25
+Accepted:  yes  (for: 7, against: 1, abstained: 0, not voted: 2)
+
+  Dmitry     [+1]
+  Matt       [+1]
+  Pauli      [+1]
+  Tim        [+1]
+  Richard    [+1]
+  Shane      [+1]
+  Tomas      [+1]
+  Kurt       [ 0]        # 2022-02-08
+  Matthias   [  ]
+  Nicola     [-1]
+***
