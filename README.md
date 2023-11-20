@@ -17,10 +17,10 @@ Voting Records 8^)
 
 Our records of their policy votes are stored in `/votes/` in seperate files. Formatted records provided with `voting procedure` policy.
 
-[OMC]: https://github.com/openssl/general-policies/blob/master/policies/glossary.md#otc
-[OTC]: https://github.com/openssl/general-policies/blob/master/policies/glossary.md#omc
-[project bylaws]: https://www.openssl.org/policies/omc-bylaws.html
-[policy-change-process]: ./policies/policy-change-process.md
-[voting-procedure]: ./policies/voting-procedure.md
-[policies]: ./policies
-[votes]: ./votes
+*[OMC]: https://github.com/openssl/general-policies/blob/master/policies/glossary.md#otc*
+*[OTC]: https://github.com/openssl/general-policies/blob/master/policies/glossary.md#omc*
+*[project bylaws]: https://www.openssl.org/policies/omc-bylaws.html*
+*[policy-change-process]: ./policies/policy-change-process.md*
+*[voting-procedure]: ./policies/voting-procedure.md*
+*[policies]: ./policies*
+*[votes]: ./votes*
