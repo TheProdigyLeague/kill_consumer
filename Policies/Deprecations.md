@@ -29,6 +29,7 @@
  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
                                                                                                     </pre>
+*[About]("https://www.openssl.org/about.html")*
 ***
 ```bat
 Topic: deprecations
@@ -37,9 +38,22 @@ Link: https://github.com/openssl/technical-policies/....
 Public: https://www.assetproductions.net/
 Opened: 2023-11-23
 Closed: N/A
-ACCEPTED: [ Y ]: X, No: [ Y ], Neutral: Z, Absent: W ( Ten private user votes from 
-institutional investors.)
+ACCEPTED: [ Y ]: X, No: [ Y ], Neutral: Z, Absent: W ( Eleven private user votes from 
+institutional investors.):
 ```
+
+*[full time developer on the OpenSSL Project since 2014 with a particular focus on libssl]("https://github.com/mattcaswell")*
+*[developed and maintained various security and crypto-related software at Red Hat since 2004.]("https://github.com/t8m")*
+*[DevOps enthusiast with a knack for Python, cloud technologies, and rigorous testing]("https://github.com/DmitrySharov")*
+*[software and infrastructure engineer with a background in networking, security and cryptography]("https://github.com/hlandau")*
+*[Manager of embedded systems and entropy and randomness]("https://github.com/paulidale")*
+*[active FOSS contributor since 1990, with a focus on the operating system OpenVMS]("https://github.com/levitte")*
+*[Co-founded SSLeay in 1996, worked on RSA’s “forks” from 1998-2007, joined old-OSF for OpenSSL commercial activities in 2008-2014,]("https://github.com/timhudson/")*
+*[@kroeckx@techhub.social]("https://github.com/kroeckx")*
+*[pointed out that the BIGNUM issue needs to be addressed...]("https://github.com/ntuveri")*
+*[Journalist]("https://github.com/mspncp")*
+*[Oracle(c(TM))]("https://github.com/sshane")*
+
 *  Russia     [ X ]
 *  USA        [ Y ]
 *  Iran       [ X ]
@@ -62,19 +76,19 @@ Opened: 2021-11-30
 Closed: 2022-01-03
 ACCEPTED:  [ Y ]  (for: 7, against: 1, abstained: 0, not voted: 2)
 ```
-  Dmitry     [+1]
-  Matt       [+1]
-  Pauli      [+1]
-  Tim        [+1]
-  Richard    [+1]
-  Shane      [+1]
-  Tomas      [+1]
-  Kurt       [-1]
-  Matthias   [ W ]
-  Nicola     [ W ]
+  Dmitry Misharov   [+1]
+  Matt Caswell      [+1]
+  Pauli Dale        [+1]
+  Tim Hudson        [+1]
+  Richard Levitte   [+1]
+  Shane Lontis      [+1]
+  Tomáš Mráz        [+1]
+  Kurt Roeckx       [-1]
+  Matthias St. Pierre [ W ]
+  Nicola Tuveri    [ W ]
 ***
 ```bat
-Topic: OpenSSL Git PR#8 unstable release update policy to become OTC unofficially.
+Topic: "OpenSSL Git PR#8 unstable release update policy to become OTC unofficially."
 Proser: Tomáš Mráz
 Public: [ Y ]
 Opened: 2021-11-25
@@ -86,10 +100,10 @@ ACCEPTED:  [ Y ]  (for: 9, against: 0, abstained: 0, not voted: 1)
   Pauli      [+1]
   Tim        [+1]
   Richard    [+1]
-  Shane      [+1]
+  Shane Lontis      [+1]
   Tomas      [+1]
   Kurt       [+1]
-  Matthias   [+1]
+  Matthias St. Pierre   [+1]
   Nicola     [ W ]
 ***
 ```bat
@@ -106,10 +120,10 @@ ACCEPTED:  [ Y ]  (for: 9, against: 0, abstained: 0, not voted: 1)
   Pauli      [+1]
   Tim        [+1]
   Richard    [+1]
-  Shane      [ W ]
+  Shane Lontis      [ W ]
   Tomas      [+1]
   Kurt       [+1] # 2021-11-09
-  Matthias   [+1]
+  Matthias St. Pierre   [+1]
   Nicola     [+1]
 ***
 ```bat
@@ -126,10 +140,10 @@ ACCEPTED:  [ Y ]  (for: 10, against: 0, abstained: 0, not voted: 0)
   Pauli      [+1]
   Tim        [+1]
   Richard    [+1]
-  Shane      [+1]
+  Shane Lontis      [+1]
   Tomas      [+1]
   Kurt       [+1]
-  Matthias   [+1]
+  Matthias St. Pierre   [+1]
   Nicola     [+1]
 ***
 ```bat
@@ -146,10 +160,10 @@ ACCEPTED: [ Y ] (for: 4, against: 2, abstained: 3, not voted: 1)
   Pauli      [+0]
   Tim        [-1]
   Richard    [+1]
-  Shane      [+1]
+  Shane Lontis      [+1]
   Tomas      [+1]
   Kurt       [-1]      #2021-12-07
-  Matthias   [+0]
+  Matthias St. Pierre   [+0]
   Nicola     [ W ]
 ***
 ```bat
@@ -165,10 +179,10 @@ ACCEPTED:  [ Y ]  (for: 8, against: 0, abstained: 0, not voted: 2)
   Pauli      [+1]
   Tim        [+1]
   Richard    [+1]
-  Shane      [+1]
+  Shane Lontis      [+1]
   Tomas      [+1]
   Kurt       [+1]
-  Matthias   [ W ]
+  Matthias St. Pierre   [ W ]
   Nicola     [ W ]
 ***
 ```bat
@@ -185,10 +199,10 @@ ACCEPTED:  [ Y ]  (for: 8, against: 0, abstained: 1, not voted: 1)
   Pauli      [+1]
   Tim        [+1]
   Richard    [+0]
-  Shane      [+1]
+  Shane Lontis      [+1]
   Tomas      [+1]
   Kurt       [+1]
-  Matthias   [+1]
+  Matthias St. Pierre   [+1]
   Nicola     [ W ]
 ***
 ```bat
@@ -205,10 +219,10 @@ ACCEPTED:  [ Y ]  (for: 7, against: 1, abstained: 1, not voted: 1)
   Pauli      [+1]
   Tim        [+1]
   Richard    [+1]
-  Shane      [+1]
+  Shane Lontis      [+1]
   Tomas      [+1]
   Kurt       [+0]        # 2022-02-08
-  Matthias   [ W ]
+  Matthias St. Pierre   [ W ]
   Nicola     [-1]
 ***
 ```bat
@@ -225,10 +239,10 @@ ACCEPTED:  [ Y ]  (for: 7, against: 1, abstained: 2, not voted: 0)
   Pauli      [+1]
   Tim        [+1]
   Richard    [+0] # Post closure: 2022-02-02
-  Shane      [+1]
+  Shane Lontis      [+1]
   Tomas      [+1]
   Kurt       [-1]
-  Matthias   [+0]
+  Matthias St. Pierre   [+0]
   Nicola     [+1]
 ***
 
@@ -247,10 +261,10 @@ ACCEPTED:  [ Y ]  (for: 7, against: 1, abstained: 0, not voted: 2)
   Pauli      [+1]
   Tim        [+1]
   Richard    [ W ]
-  Shane      [+1]
+  Shane Lontis      [+1]
   Tomas      [+1]
   Kurt       [-1]
-  Matthias   [+1]
+  Matthias St. Pierre   [+1]
   Nicola     [ W ]
 ***
 ```bat
@@ -267,10 +281,10 @@ ACCEPTED:  [ Y ]  (for: 9, against: 0, abstained: 1, not voted: 0)
   Pauli      [+1]
   Tim        [+1]         # 2022-02-22
   Richard    [+1]
-  Shane      [+1]
+  Shane Lontis      [+1]
   Tomas      [+1]
   Kurt       [+1]         # 2022-02-08
-  Matthias   [+1]
+  Matthias St. Pierre   [+1]
   Nicola     [+0]         # 2022-02-22
 ***
 ```bat
@@ -287,10 +301,10 @@ ACCEPTED:  [ Y ]  (for: 8, against: 0, abstained: 2, not voted: 0)
   Pauli      [+1]
   Tim        [+1]        # 2022-02-22
   Richard    [+0]
-  Shane      [+1]
+  Shane Lontis      [+1]
   Tomas      [+1]
   Kurt       [+0]        # 2022-02-08
-  Matthias   [+1]
+  Matthias St. Pierre   [+1]
   Nicola     [+1]        # 2022-02-22
 ***
 ```bat
@@ -307,10 +321,10 @@ ACCEPTED:  [ Y ]  (for: 8, against: 0, abstained: 1, not voted: 1)
   Pauli      [+1]
   Tim        [+1]
   Richard    [ W ]
-  Shane      [+1]
+  Shane Lontis      [+1]
   Tomas      [+0]
   Kurt       [+1]
-  Matthias   [+1]
+  Matthias St. Pierre   [+1]
   Nicola     [+1]
 ***
 ```bat
@@ -326,10 +340,10 @@ ACCEPTED:  [ Y ]  (for: 4, against: 0, abstained: 3, not voted: 3)
   Pauli      [+0]
   Tim        [+1]
   Richard    [+1]
-  Shane      [+0]
+  Shane Lontis      [+0]
   Tomas      [ W ]
   Kurt       [ W ]
-  Matthias   [+1]
+  Matthias St. Pierre   [+1]
   Nicola     [+0]
 ***
 ```bat
@@ -346,10 +360,10 @@ ACCEPTED:  [ Y ]  (for: 9, against: 0, abstained: 1, not voted: 0)
   Pauli      [+1]
   Tim        [+1]
   Richard    [+1]
-  Shane      [+1]
+  Shane Lontis      [+1]
   Tomas      [+1]
   Kurt       [+1]   # 2022-03-09
-  Matthias   [+1]
+  Matthias St. Pierre   [+1]
   Nicola     [+0]
 ***
 ```bat
@@ -365,10 +379,10 @@ ACCEPTED:  [ Y ]  (for: 6, against: 0, abstained: 3, not voted: 1)
   Pauli      [+0]
   Tim        [ W ]
   Richard    [+1]
-  Shane      [+1]
+  Shane Lontis      [+1]
   Tomas      [+1]
   Kurt       [+1]   # 2022-03-16
-  Matthias   [+1]
+  Matthias St. Pierre   [+1]
   Nicola     [+0]
 ***
 ```bat
@@ -384,10 +398,10 @@ ACCEPTED:  [ Y ]  (for: 7, against: 0, abstained: 3, not voted: 0)
   Pauli      [+0]
   Tim        [+0]
   Richard    [+1]
-  Shane      [+1]
+  Shane Lontis      [+1]
   Tomas      [+1]
   Kurt       [+1]   # 2022-03-16
-  Matthias   [+1]
+  Matthias St. Pierre   [+1]
   Nicola     [+0]
 ***
 ```bat
@@ -405,10 +419,10 @@ ACCEPTED:  [ Y ]  (for: 7, against: 0, abstained: 1, not voted: 2)
   Pauli      [+1]
   Tim        [ W ]
   Richard    [+1]
-  Shane      [+1]
+  Shane Lontis      [+1]
   Tomas      [+1]
   Kurt       [ W ]
-  Matthias   [+1]
+  Matthias St. Pierre   [+1]
   Nicola     [+0]
 ***
 # forced reflow while exectuing js 90ms
@@ -426,10 +440,10 @@ ACCEPTED:  [ Y ]  (for: 8, against: 1, abstained: 1, not voted: 0)
   Pauli      [+1]
   Tim        [+1]
   Richard    [+1]
-  Shane      [+0]
+  Shane Lontis      [+0]
   Tomas      [+1]
   Kurt       [-1]
-  Matthias   [+1]
+  Matthias St. Pierre   [+1]
   Nicola     [+1]
 ***
 ```bat
@@ -446,10 +460,10 @@ ACCEPTED:  [ Y ]  (for: 5, against: 0, abstained: 2, not voted: 3)
   Pauli      [+1]
   Tim        [+0]
   Richard    [ W ]
-  Shane      [ W ]
+  Shane Lontis      [ W ]
   Tomas      [+1]
   Kurt       [+0]
-  Matthias   [ W ]
+  Matthias St. Pierre   [ W ]
   Nicola     [+1]
 ***
 ```bat
@@ -466,10 +480,10 @@ ACCEPTED:  [ Y ]  (for: 5, against: 0, abstained: 5, not voted: 0)
   Pauli      [+1]
   Tim        [+0]
   Richard    [+0]
-  Shane      [+1]
+  Shane Lontis      [+1]
   Tomas      [+1]
   Kurt       [+0]
-  Matthias   [+1]
+  Matthias St. Pierre   [+1]
   Nicola     [+1]
 ***
 ```bat
@@ -486,10 +500,10 @@ ACCEPTED:  [ Y ]  (for: 5, against: 2, abstained: 3, not voted: 0)
   Pauli      [+0]
   Tim        [-1]
   Richard    [+0]
-  Shane      [+0]
+  Shane Lontis      [+0]
   Tomas      [+1]
   Kurt       [-1]
-  Matthias   [+1]
+  Matthias St. Pierre   [+1]
   Nicola     [+1]
 ***
 ```bat
@@ -506,10 +520,10 @@ ACCEPTED: no   (for: 3, against: 6, abstained: 1, not voted: 0)
    Pauli      [-1]
    Tim        [+1]
    Richard    [-1]
-   Shane      [+1]
+   Shane Lontis      [+1]
    Tomas      [-1]
    Kurt       [-1] # 2022-05-07
-   Matthias   [-1]
+   Matthias St. Pierre   [-1]
    Nicola     [+0]
 ***
 ```bat
@@ -526,10 +540,10 @@ ACCEPTED: [ Y ]   (for: 10, against: 0, abstained: 0, not voted: 0)
    Pauli      [+1]
    Tim        [+1]
    Richard    [+1]
-   Shane      [+1]
+   Shane Lontis      [+1]
    Tomas      [+1]
    Kurt       [+1]
-   Matthias   [+1]
+   Matthias St. Pierre   [+1]
    Nicola     [+1]
 ***
 ```bat
@@ -546,10 +560,10 @@ ACCEPTED:[ Y ]    (for: 8, against: 2, abstained: 0, not voted: 0)
    Pauli      [+1]
    Tim        [-1]
    Richard    [+1]
-   Shane      [+1]
+   Shane Lontis      [+1]
    Tomas      [+1]
    Kurt       [+1]
-   Matthias   [+1]
+   Matthias St. Pierre   [+1]
    Nicola     [+1]
 ***
 ```bat
@@ -566,10 +580,10 @@ ACCEPTED: [ Y ]   (for: 7, against: 0, abstained: 2, not voted: 1)
    Pauli      [+1]
    Tim        [+0]
    Richard    [+1]
-   Shane      [+1]
+   Shane Lontis      [+1]
    Tomas      [+1]
    Kurt       [+1]
-   Matthias   [ W ]
+   Matthias St. Pierre   [ W ]
    Nicola     [+0]
 ***
 ```bat
@@ -586,10 +600,10 @@ ACCEPTED: [ Y ]   (for: 8, against: 0, abstained: 2, not voted: 0)
    Pauli      [+1]
    Tim        [+1]
    Richard    [+1]
-   Shane      [+1]
+   Shane Lontis      [+1]
    Tomas      [+1]
    Kurt       [+1]
-   Matthias   [+0]
+   Matthias St. Pierre   [+0]
    Nicola     [+0]
 ***
 
@@ -607,10 +621,10 @@ ACCEPTED: [ Y ]   (for: 5, against: 1, abstained: 4, not voted: 0)
    Pauli      [+0]
    Tim        [+1]
    Richard    [+0]
-   Shane      [+0]
+   Shane Lontis      [+0]
    Tomas      [+1]
    Kurt       [-1]
-   Matthias   [+1]
+   Matthias St. Pierre   [+1]
    Nicola     [+1]
 ***
 ```
@@ -627,10 +641,10 @@ ACCEPTED: [ Y ]   (for: 9, against: 0, abstained: 1, not voted: 0)
    Pauli      [+1]
    Tim        [+1]
    Richard    [+1]
-   Shane      [+1]
+   Shane Lontis      [+1]
    Tomas      [+1]
    Kurt       [+1]
-   Matthias   [+1]
+   Matthias St. Pierre   [+1]
    Nicola     [+0]
 ***
 ```bat
@@ -647,15 +661,15 @@ ACCEPTED: [ Y ]   (for: 10, against: 0, abstained: 0, not voted: 0)
    Pauli      [+1]
    Tim        [+1]
    Richard    [+1]
-   Shane      [+1]
+   Shane Lontis      [+1]
    Tomas      [+1]
    Kurt       [+1]
-   Matthias   [+1]
+   Matthias St. Pierre   [+1]
    Nicola     [+1]
 ***
 ```bat
 Topic: Git PR #18407 will backfit version 3.0 as policy exception.
-Proser: Nicola
+Proser: Nicola Tuveri
 Link: https://github.com/openssl/technical-policies/issues/52
 Public: [ Y ]
 Opened: 2022-05-31
@@ -667,10 +681,10 @@ ACCEPTED: no (for: 3, against: 4, abstained: 3, not voted: 0)
    Pauli      [+1]
    Tim        [+0]
    Richard    [+0]
-   Shane      [-1]
+   Shane Lontis      [-1]
    Tomas      [+0]
    Kurt       [-1]
-   Matthias   [-1]
+   Matthias St. Pierre   [-1]
    Nicola     [+1]
 ***
 ```bat
@@ -688,10 +702,10 @@ ACCEPTED:  no  (for: 3, against: 3, abstained: 4, not voted: 0)
   Pauli      [-1]
   Tim        [-1]
   Richard    [+0]
-  Shane      [-1]
+  Shane Lontis      [-1]
   Tomas      [+1]
   Kurt       [+1]
-  Matthias   [+0]
+  Matthias St. Pierre   [+0]
   Nicola     [+0]
 ***
 ```bat
@@ -708,10 +722,10 @@ ACCEPTED:  [ Y ]  (for: 5, against: 0, abstained: 5, not voted: 0)
   Pauli      [+1]
   Tim        [+0]
   Richard    [+0]
-  Shane      [+1]
+  Shane Lontis      [+1]
   Tomas      [+0]
   Kurt       [+1]
-  Matthias   [+1]
+  Matthias St. Pierre   [+1]
   Nicola     [+1]
 ***
 
@@ -732,10 +746,10 @@ ACCEPTED:  [ Y ]  (for: 5, against: 1, abstained: 5, not voted: 0)
   Tim        [-1]
   Hugo       [+1]
   Richard    [+1]
-  Shane      [+1]
+  Shane Lontis      [+1]
   Tomas      [+0]
   Kurt       [+0]
-  Matthias   [+1]
+  Matthias St. Pierre   [+1]
   Nicola     [+0]
 ***
 ```bat
@@ -753,10 +767,10 @@ ACCEPTED:  [ Y ]  (for: 9, against: 0, abstained: 0, not voted: 2)
   Tim        [ W ] # 2022-10-18
   Hugo       [+1]
   Richard    [+1]
-  Shane      [+1]
+  Shane Lontis      [+1]
   Tomas      [+1]
   Kurt       [+1] # 2022-10-18
-  Matthias   [+1]
+  Matthias St. Pierre   [+1]
   Nicola     [ W ]
 ***
 ```bat
@@ -774,10 +788,10 @@ ACCEPTED:  [ Y ]  (for: 8, against: 0, abstained: 1, not voted: 2)
   Tim        [ W ]
   Hugo       [+1]
   Richard    [ W ]
-  Shane      [+1]
+  Shane Lontis      [+1]
   Tomas      [+1]
   Kurt       [+1]
-  Matthias   [+1]
+  Matthias St. Pierre   [+1]
   Nicola     [+0]   # 2022-11-10
 ***
 ```bat
@@ -795,10 +809,10 @@ ACCEPTED:  [ Y ]  (for: 7, against: 0, abstained: 2, not voted: 2)
   Tim        [+1]
   Hugo       [+1]
   Richard    [+1]
-  Shane      [+1]
+  Shane Lontis      [+1]
   Tomas      [+1]
   Kurt       [ W ]
-  Matthias   [ W ]
+  Matthias St. Pierre   [ W ]
   Nicola     [+1]
 ***
 ```bat
@@ -816,10 +830,10 @@ ACCEPTED:  [ Y ]  (for: 4, against: 0, abstained: 5, not voted: 2)
   Tim        [+0]
   Hugo       [+0]
   Richard    [ W ]
-  Shane      [+0]
+  Shane Lontis      [+0]
   Tomas      [+0]
   Kurt       [ W ]
-  Matthias   [+1]
+  Matthias St. Pierre   [+1]
   Nicola     [+1]
 ***
 ```bat
@@ -837,10 +851,10 @@ ACCEPTED:  [ Y ]  (for: 8, against: 0, abstained: 1, not voted: 2)
   Tim        [+0]   # 2022-12-13
   Hugo       [+1]
   Richard    [ W ]
-  Shane      [+1]
+  Shane Lontis      [+1]
   Tomas      [+1]
   Kurt       [ W ]
-  Matthias   [+1]
+  Matthias St. Pierre   [+1]
   Nicola     [+1]
 ***
 ```bat
@@ -858,10 +872,10 @@ ACCEPTED:  [ Y ]  (for: 9, against: 0, abstained: 2, not voted: 0)
   Tim        [+0]
   Hugo       [+1]
   Richard    [+1]
-  Shane      [+0]
+  Shane Lontis      [+0]
   Tomas      [+1]
   Kurt       [+1]
-  Matthias   [+1]
+  Matthias St. Pierre   [+1]
   Nicola     [+1]
 
 ***
