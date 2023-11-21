@@ -29,7 +29,9 @@
  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
                                                                                                     </pre>
+
 *[About]("https://www.openssl.org/about.html")*
+
 ***
 ```bat
 Topic: deprecations
@@ -42,7 +44,9 @@ ACCEPTED: [ Y ]: X, No: [ Y ], Neutral: Z, Absent: W ( Eleven private user votes
 institutional investors.):
 ```
 
-*[full time developer on the OpenSSL Project since 2014 with a particular focus on libssl]("https://github.com/mattcaswell")*
+# link editor is broken
+`
+[full time developer on the OpenSSL Project since 2014 with a particular focus on libssl]: "https://github.com/mattcaswell"
 *[developed and maintained various security and crypto-related software at Red Hat since 2004.]("https://github.com/t8m")*
 *[DevOps enthusiast with a knack for Python, cloud technologies, and rigorous testing]("https://github.com/DmitrySharov")*
 *[software and infrastructure engineer with a background in networking, security and cryptography]("https://github.com/hlandau")*
@@ -53,6 +57,7 @@ institutional investors.):
 *[pointed out that the BIGNUM issue needs to be addressed...]("https://github.com/ntuveri")*
 *[Journalist]("https://github.com/mspncp")*
 *[Oracle(c(TM))]("https://github.com/sshane")*
+`
 
 *  Russia     [ X ]
 *  USA        [ Y ]
