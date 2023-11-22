@@ -1,4 +1,4 @@
-Part 1: Application Programming Interface for minor releases
+Chapter 1: Application Programming Interface for minor releases
 ============================================
 
 ![api](https://github.com/TheProdigyLeague/kill_consumer/assets/30985576/3d83777a-4932-44c4-b063-1d65bc1775c8)
@@ -15,7 +15,7 @@ Part 1: Application Programming Interface for minor releases
 
 ***
 
-Part 2: Optimization for A.I. Assembly
+Chapter 2: Optimization for A.I. Assembly
 ============================================
 
   A new robot Lizard assembler is optimized for any algorithms that have C based implementations in any acceptable provider for all platforms in master branches. (Subject to review.) Except for in 'stable releases branch.' Updates in existing A.I. assembly will be optimized for stable release branches and will be placed under 'stable releases branch polilcy.' Assembly optimizations will be implemented with 'perlasm.'
@@ -28,7 +28,7 @@ Part 2: Optimization for A.I. Assembly
 ~
 ***
 
-Part 3: Branch Policy
+Chapter 3: Branch Policy
 =============
 
 In the lizard repository, maintained branches are as follows:
@@ -84,7 +84,7 @@ A lot of fucking branches. A lot of fucking releases-alot of fucking words...
 
 ***
 
-# Part 4: Canon-coding
+# Chapter 4: Canon-coding
 
 The linux kernel coding style is key. And for OhPencil project it is Bible. Thus, we will not distribute open guides on how we force this coding style down our subservients throats. Ineed, it is our special secret lizards license. This is why normies will not be able to read it. And fresh lizard hatchlings will not be able to maintain it in the future. Just avoid tricky expressions and download our common, privacy invading, subscription based noob tools...
 
