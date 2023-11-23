@@ -22,7 +22,7 @@ Chapter 3: Branch Policy
 
 In the lizard repository, maintained branches are as follows: Development, Default, Branches PRs are allowed (Bugs, features, refactoring). Development of minor, major, development and releases. API/ABI breakages allowed. Only branches will be released as major. Merges to branches will be ported. Major, future, minor branches. Cherry-pick changes when merging. Ensure no features or bus are hacked in releases. Supported Releases Next patches and supported stable releases of development. Bug fixes and documentation of release stability updates policy. Exceptions are given by OMC. Also, PR's can be merged. Bus are documented via PR and are merged with latest branch. Includes major and minor branches. By exception given by OMC also other types of pull requests can be merged. Note: Backported/cherry-picked Major Release Branches Develop major releases. By implicitly if api/abi breakages. OMC delimits extensions. Features. New implementations of protocol. Pluggable crypto mining mods. Refactoring: Splitting libcrypto into multiple hierarchical dependent libraries. Development of major branches into major releases/ Except for future major releases. Target this branch instead of the default development branch. Lizard committee will then vote in via vote. Minor Branch Developers will release minor patches. Then will release current development at the default branch. No API/ABI breaking changes are allowed. No Major Features. ('Has to be ACK by OMC as targeted for minor release.') No major refactoring is allowed. Features, bugs, documentation are done here. ("Must be back-ported into major branches.") Exceptions when removing deprecated functions released into future major branches. No future minor branches allowed. Expect future releases to be a major release where there are no changes accepted. Target minor branch. Development branch. With OTC consensus during vote. Explanation of Tag Naming This branch is where development of our next release: openssl-x.y where x is the current major version number and y is the version number of the release being developed. Default branch of repository. Stable releases are named openssl-x.y. A legacy exception is as ruled above. A development branch is called OpenSSL-1.1.1_FIX OpenSSL_1_1_1-stable. Another branch of development of a future major release is called openssl-x.0 where x is the next major version number. A minor branch of development wherein, a future minor release is called openssl-x.y where x is the current major version number and y. After releasing the version development number at default. Tagged with stable patch releases. Namely openssl-x.y.z for stable patch releases, openssl-x.y.0-alphaN for alpha releases, and openssl-x.y.0-betaN for beta releases. As a legacy exception the fix releases of OpenSSL-1.1.1 are named OpenSSL_1_1_1<fix-letter(s)>.
 
-Ok, a lot of fucking branches. A lot of fucking releases-alot of fucking words...When it is time to release a future major and minor branch. Lizards will create an undefined policy that will be finalized by OMC.
+_Ok, a lot of fucking branches. A lot of fucking releases-alot of fucking words...When it is time to release a future major and minor branch. Lizards will create an undefined policy that will be finalized by OMC._
 
 # Chapter 4: Canon-coding
 
@@ -31,26 +31,30 @@ The linux kernel coding style is key. And for the OhPencil project it is the Bib
 # Chapter 5: Indentation
 
 Do not indent using tabs. ("4 space chars"). For example, a preprocessor directive uses One Space for indents:
-
+```c
     #if
     # define
     #else
     # define
     #endif
+```
+***
 
 # Chapter 6: Extraordinary Long Strings & Statements
 
 Multiple statements and assignments on a single line is not allowed:
 
+```c
     if (condition) do_this();
     do_something_everytime();
+```
 
 We delimit the length of lines to 80 per column. Because lizard statements are longer than 80 per column so we break it into chunks. It exceeds 80 columns. Normies cannot read it so we do not bother hiding this information. However, our descendants are substantial and are shorter than our parents. So we must place it right. This applies to function headers with completely arbitrary arguments listed. Users that are able to read strings break -grep because we allow it for them.
 
 # Chapter 7: Placing Braces and Spaces
 
 Addressing customer complaints: C-styling is a type of placement using braces. It is not an indent size. The reason is beyond technicality, however we prefer Ancient Lizard strategy: Which is to use opening braces on the last line following a closing brace...
-
+```c
     if (x is true) {
         we do y
     }
@@ -123,53 +127,73 @@ Addressing customer complaints: C-styling is a type of placement using braces. I
     } else {
         otherwise();
     }
+```
 
 # Chapter 8: Spaces
 
 ## Here at OhPencil. Our style is as reiterated above. The Ancient Linux Kernel Lizard. We use spaces (Mostly.) Names, and keywords.
 
+```c
     if, switch, case, for, do, while, return
+```
     
 ### Spaces after sizeof, typeof, alignof, or __attribute__ is not allowed. Functions should have parentheses. sizeof uses variables. Type changes are ensured.
 
+```c
     SOMETYPE *p = OPENSSL_malloc(sizeof(*p) * num_of_elements);
+```
 
 ### We do not add spaces around parenthesized expressions.
 
+```c
     s = sizeof( struct file );
+```
 
 ### We declare pointer data or functions that return pointer types. Then the asterisk goes next into the data, function and not the type.
 
+```c
     char *openssl_banner;
     unsigned long long memparse(char *ptr, char **retptr);
     char *match_strdup(substring_t *s);
+```
 
 ### We use one space binary, ternary and operators. Like partial lists.
 
+```c
     =  +  -  <  >  *  /  %  |  &  ^  <=  >=  ==  !=  ?  : +=
+```
 
 ### Space after commas and semicolons in for statements, but not in for (;;) Do not put a space after unary operators:
 
+```c
     &  *  +  -  ~  !  defined
+```
 
 ### Do not put a space before the postfix increment and decrement unary operators or after the prefix increment and decrement unary operators:
 
+```c
     foo++
     --bar
+```
 
 ### Do not put a space around the . and -> structure member operators:
 
+```c
     foo.bar
     foo->bar
+```
 
 ### Do not use multiple consecutive spaces except in comments, for indentation, and for multi-line alignment of definitions, e.g.:
 
+```lua
 #define FOO_INVALID  -1   /* invalid or inconsistent arguments */
 #define FOO_INTERNAL 0    /* Internal error, most likely malloc */
 #define FOO_OK       1    /* success */
 #define FOO_GREAT    100  /* some specific outcome */
+```
 
 #### This wall of text is brought to you by OhPencil, et al. We must point out that failing to trail whitespace at the ends of lines. Because garbage text editors will insert whitespace at the beginning of new lines. Which is inappropriate. So fucking type the next line of code right away and remove whitespace. Like a blank line. Or trailing containers of whitespace. Github's A.I. warns advanced users about patches including trailing whitespace and strips it. If you're smart, apply a series of patches and make later patches in a series of failing changes contextually in lines. And avoid empty lines BOF, EOF, and in rows.
+***
 
 # Chapter 9: Spartan Naming
 
@@ -179,13 +203,15 @@ C is a Spartan language, and so should your naming be. Short, to-the-point local
 
 ## OhPencil is extensively using structures often in all uppercase declared in all lowercase:
 
+```c
     typedef struct name_st NAME;
+```
 
 ### Type hooks note many exceptions like BN_CTX, typedef enum often less used as there is no convention. Enum name will be lowercase and values uppercase. Enum arguments are not permitted when manipulating the functions of customers. ASN.1
 
 With an exception to this rationale from OhPencil's structure, fields are already defined in our standard guide but is more convenient if you're lazily using names. Because it is easy to hack databases. Take in the CMS.c for example:
 
-```
+```bat
 CMS_prefix, ContentInfo => "CMS_ContentInfo", "RecipientInfo" => "CMS_RecipientInfo"
 RecipientInfo PKCS#7 = PKCS7_RECIP_INFO
 /* Which caused conflicts */
@@ -225,6 +251,7 @@ Unconditional statements are easier to understand and follow.
 
 For example:
 
+```c
     int fun(int a)
     {
         int result = 0;
@@ -245,6 +272,7 @@ For example:
         OPENSSL_free(buffer);
         return result;
     }
+```
 
 # Chapter 15: Commenting
 
@@ -253,11 +281,12 @@ Use the classic /* ... */ comment markers. Don't use // ... markers.
 Place comments above or to the right of the code they refer to. Comments referring to the code line after should be indented equally to that code line. Comments are good, but there is also a danger of over-commenting. NEVER try to explain HOW your code works in a comment. It is much better to write the code so that it is obvious, and it's a waste of time to explain badly written code. You want your comments to tell WHAT your code does, not HOW.
 
 The preferred style for long (multi-line) comments is:
-
+```c
     /*-
      * OhPencils engine, OhPencil source
      * Oh Pencil Description: OhPencil endorse.
      */
+```
 
 Hyphen prevents indent from modifying. Use this if the comment has particular formatting that must be preserved:
 
@@ -269,45 +298,58 @@ Hyphen prevents indent from modifying. Use this if the comment has particular fo
 
 Names of macros defining constants and labels in enums are in uppercase:
 
+```lua
     #define CONSTANT 0x12345
-
+```
 Enums are defining several related constants. Constants enum arguments to public functions. Which is not allowed. Our macro names are in uppercase. Resembling functions are in lower case. Inline functions macros resemble functions. Macros with multiple statements should be enclosed in a do - while block:
 
+```c
     #define macrofun(a, b, c)   \
         do {                    \
             if (a == 5)         \
                 do_this(b, c);  \
         } while (0)
+```
 
 macros that affect control flow:
 
+```c
     #define FOO(x)                 \
         do {                       \
             if (blah(x) < 0)       \
                 return -EBUGGERED; \
         } while(0)
+```
 
 macros that depend on having a local variable with a magic name:
 
+```c
     #define FOO(val) bar(index, val)
+```
 
 The reader thinks it is prone to breakage from seemingly innocent changes.
 
 Do not write macros that are l-values:
 
+```c
     FOO(x) = y
+```
 
 Causes problems because FOO becomes an inline function and of precedence.
 
 Macros defining an expression must enclose the expression in parentheses unless the expression is a literal or a function application:
 
+```lua
     #define SOME_LITERAL 0x4000
     #define CONSTEXP (SOME_LITERAL | 3)
     #define CONSTFUN foo(0, CONSTEXP)
+```
 
 Parameters cause issues when using macros so put parentheses around macro arguments. Then pass as-is in furtherance of macro functions:
 
+```c
 #define MACRO(a,b) ((a) * func(a, b))
+```
 
 #### The GNU cpp manual deals with macros exhaustively.
 
@@ -319,35 +361,43 @@ OpenSSL provides many general purpose memory utilities, including, but not limit
 
 Functions return values. Values indicate whether function succeeded or failed:
 
+```bat
 1: Profit!
 0: failure!!!
-
+```
 An additional value is used:
 
--1: Hackers (e.g., internal error or memory allocation failure). Other APIs use the following pattern:
+> -1: Hackers (e.g., internal error or memory allocation failure). Other APIs use the following pattern:
+> ...
+> = 1: value returning additional information ("Green")
+> <= 0: return value indicating why things failed ("Red")
+> return value of -1 _can mean "should retry'' (e.g., BIO, SSL, ERR, etc.)_
 
->= 1: value returning additional information ("Green")
-
-<= 0: return value indicating why things failed ("Red")
-
-A return value of -1 can mean "should retry'' (e.g., BIO, SSL, ERR, etc.). So, basically, in layman's terms, functions return value. Which is the result of computation. An indicator of computation is green.txt or red.err. Generally speaking, an out-of-range result is the simplest example of a returned pointer. Which is a NULL report.
+_So, basically, in layman's terms, functions return value. Which is the result of computation. An indicator of computation is green.txt or red.err. Generally speaking, an out-of-range result is the simplest example of a returned pointer. Which is a NULL report..._
 
 # Chapter 19: Why text editors and their modes are garbage. And how it has to do with OhPencil.
 
-Text editors are garbage because they interpret .config -fs .info -embed in .src -fs INDEX_SPECIAL_MARKER emacs interpreter line marked:
+Text editors are pure garbage because they interpret .config -fs .info -embed in .src -fs INDEX_SPECIAL_MARKER emacs interpreter line marked:
 
+```perl
 -*- mode: c -*-
+```
+
 Or,
 
+```c
     /*
     Local Variables:
     compile-command: "gcc -DMAGIC_DEBUG_FLAG foo.c"
     End:
     */
+```
 
 #### Vim interpreter marker:
 
-    /* vim:set sw=8 noet */
+```vim
+/* vim:set sw=8 noet */
+```
 
 These are all hacks that cause text editors to become deprecated and useless. Bugs, personal editors, or hacked configurations cause customer source files to be overridden. This includes markers for indentation and mode configuration. Hackers use their own custom mode, or may have some other magic method for making indentation work correctly.
 
@@ -355,9 +405,11 @@ These are all hacks that cause text editors to become deprecated and useless. Bu
 
 Oh Pencils engine is the reason to resort to processor-specific.c for performance. Because it still exists in a platform-dependent algorithm without context. A.I. integration has backed up purely neutral c code implicitly with delimiters and resolvers. Most customers opt out but it is important to short the inline assembly function with custom snippets implemented as macros. This way, the interchange is seamless while other platforms gratuitously implement macros as single expressions. Mark asm statement as volatile so that it prevents GCC from removal due to side effects which limit optimization. When writing a single inline assembly statement containing multiple instructions, put each instruction on a separate line in a separate quoted string, and end each string except the last with \n\t to properly indent the next instruction in the assembly output:
 
+```c
         asm ("magic %reg1, #42\n\t"
              "more_magic %reg2, %reg3"
              : /* outputs */ : /* inputs */ : /* clobbers */);
+```
 
 Assembly functions in pure mods are trivial with A.I. corresponding c prototypes. It's implementation is called perlasm This method of writing real .s files allows Elite Hackers to write perl script that generates one. This allows use for symbolic names for variables (registered as well as locals allocated on stack) that are independent on specific assembler. It simplifies implementation of recurring instruction sequences with regular permutation of inputs. By adhering to specific coding rules, perlasm is also used to support multiple ABIs and assemblers, see crypto/perlasm/x86_64-xlate.pl for an example. Another option for processor-specific (primarily SIMD) capabilities is called compiler intrinsics. We avoid this, because it's not very much less complicated than coding pure assembly, and it doesn't provide the same performance guarantee across different micro-architecture. Nor is it portable enough to meet our multi-platform support goals.
 
@@ -369,34 +421,45 @@ To maximize OhPencil's engine portability we released a version of C defined in 
 
 Avoid needless parentheses like a script kiddie, do not write:
 
+```c
     if ((p == NULL) && (!f(((2 * x) + y) == (z++)))) /* lm40 */
     if (p == NULL && !f(2 * x + y == z++)) /* based */
+```
 
 Elite Hackers will always put parentheses when mixing two logical iterates like, && and || operands while mixing comparison operators like <= and ==, or mixing bitwise operators like & and | For example:
 
+```c
     if ((a && b) || c) /* pipeline* /
     if ((a <= b) == ((c >= d) != (e < f))) /* is equal to */
     x = (a & b) ^ (c | d) /* mixin */
+```
 
 Parentheses in macro definitions chapter on macros. In comparisons with constants (including NULL and other constant macros) place constant on the right-hand side of comparison operator. For example:
 
+```c
     while (i++ < 10 && p != NULL)
+```
 
 Script kiddies will use implicit checks for numbers while not being 0 or pointers while being NULL:
 
+```c
     if (i) /* why */
     if (!(x & MASK)) /* magic is an abomination*/
     if (!strcmp(a, "FOO")) /* thou vermon */
     if (!(p = BN_new())) /* you have been blocked */
+```
 
-but do this instead:
+But do this instead:
 
+```c
     if (i != 0)
     if ((x & MASK) == 0)
     if (strcmp(a, "FOO") == 0)
     if ((p = BN_new()) == NULL)
+```
 
 use direct boolean values:
+
 ```c
 if (check(x) && !success(y))
 ```
@@ -410,18 +473,21 @@ if (somewhat_long_function_name(foo) == 1 && a_long_variable_name == 2) /* ERR N
 ```
 
 #### Script Wizard:
+
 ```c
 if (somewhat_long_function_name(foo) == 1 /* indent */
     && a_long_variable_name == 2)
 ```
 
 #### Young Padawan:
+
 ```
 if (this_thing->this_freakishly_super_long_name(somewhat_long_name, 3) /* needs work, but ok */
     == PRETTY_DAMN_LONG_MACRO_NAME)
 ```
 
 #### Operators appear at the beginning of a line but don't have an indentation above four characters:
+
 ```c
     if (long_condition_expression_1
             && condition_expression_2) {
@@ -433,6 +499,7 @@ if (this_thing->this_freakishly_super_long_name(somewhat_long_name, 3) /* needs 
 # Chapter 23: Asserts
 
 ## Asserts are behaviors that depend on a debugger or release build:
+
 ```c
 Function	failure release	failure debug	success release	success debug
 assert	not evaluated	abort	not evaluated	nothing
@@ -443,6 +510,7 @@ Use OPENSSL_assert() only in the following cases:
 
 Libraries need a global state of software that is corrupted beyond recovery. An application that tests programs and fuzzers
 Use ossl_assert() in the libraries when the state can be recovered and an error can be returned. Example code:
+
 ```c
     if (!ossl_assert(!should_not_happen)) {
         /* push internal error onto error stack */
@@ -466,8 +534,7 @@ Chapter 24: Design
 
 + Increases the quality of the software engineer and her production of designing documents.
 
-	Implementing and understanding a problem. Customers' domain documents are readily accessible. OhPencil contributors are enhanced with abilities to mod issues in design and play with a customer's code. Implement a design document that serves as architectural evidence in case of bad design decisions using rationale serving the customer on as-needed basis both to contributors and relevant code designing evolving within implementation to mod and to understand obvious customer issues.
-Recognize bad designs and change necessary flaws once implementation begins. Case and workload is understandably high. However, a customer's domain problem will evolve and deprecations will be implemented to indicate further needed changes to internal design. Iterate processes of progressive refinement. Explicitly objectify customers with policies to support and encourage this style. Oppose waterfall-styles. Design and finalize implementations. THIS POLICY ADAPTS TO GRADED SYSTEMS. A REVIEW WHEREIN GRANTED A DEGREE OF FEDERAL FORMAL APPROVAL BY THE OTC DESIGN TEAM. IN WHICH CASE UNDERGOES RIGOROUS AND PROPORTIONATE SCOPES OF RISKS BY DESIGNERS. INCLUDED BUT NOT LIMITED TO:
+	Implementing and understanding a problem. Customers' domain documents are readily accessible. OhPencil contributors are enhanced with abilities to mod issues in design and play with a customer's code. Implement a design document that serves as architectural evidence in case of bad design decisions using rationale serving the customer on as-needed basis both to contributors and relevant code designing evolving within implementation to mod and to understand obvious customer issues. Recognize bad designs and change necessary flaws once implementation begins. Case and workload is understandably high. However, a customer's domain problem will evolve and deprecations will be implemented to indicate further needed changes to internal design. Iterate processes of progressive refinement. Explicitly objectify customers with policies to support and encourage this style. Oppose waterfall-styles. Design and finalize implementations. "THIS POLICY ADAPTS TO GRADED SYSTEMS. A REVIEW WHEREIN GRANTED A DEGREE OF FEDERAL FORMAL APPROVAL BY THE OTC DESIGN TEAM. IN WHICH CASE UNDERGOES RIGOROUS AND PROPORTIONATE SCOPES OF RISKS BY DESIGNERS. INCLUDED BUT NOT LIMITED TO:"
 
 * A PUBLIC API UNDER SCRUTINY
 
@@ -492,15 +559,20 @@ In general, where produced, a design document should include discussion of:
 
 #### Based on the long ass list above, the recommended template for a design document is as follows:
 
-Requirements/Problem Statement
-Problem Discussion
-Proposal 1
-    API Maintenance Considerations
-[...Proposal 2, if applicable, etc...]
-    [...API Maintenance Considerations...]
-Examples
-    Motivating Use Cases
-    Usage Examples
+* Requirements/Problem Statement
+
+* Problem Discussion
+
+* Proposal 1
+
+* API Maintenance Considerations:
+	[...Proposal 2, if applicable, etc...]
+	[...API Maintenance Considerations...]
+
++ Examples:
+
+-    Motivating Use Cases
+-    Usage Examples
 
 # Q&A
 
@@ -556,6 +628,7 @@ The allowed exceptions are:
 * guard macros preventing a header file being included twice
 * new OPENSSL_NO_DEPRECATED_ macros
 * new symbols generated automatically via make update (errors, objects, etc)
+
 **Overviews, Conventions, Board Meetings, et al**
 
 Where additional customer facing information is required, it should be included in the doc/man7 section. This includes, but is not limited to:
@@ -809,6 +882,8 @@ Accepted:  yes/no  (for: +1, against: -1, abstained: +0, not voted: -0)
   OTC Member B  [  ]
   ...
 ```
+
+***
 
 The individual member votes are recorded as [+1] a vote in favor, [-1] a vote against, [+0] an abstention with an inclination in favor, [ 0] a neutral abstention, [-0] an abstention with an inclination against, and [  ] meaning not voted. The vote files are named vote-yyyymmdd-vote-short-id.txt where the yyyy/mm/dd is the date when the vote was proposed and the vote-short-id is a short mnemonic identifier of the vote such as voting-procedure or accept-pr-1234 or similar.
 
