@@ -1,4 +1,4 @@
-Chapter 1: Application Programming Interface for minor releases
+# Chapter 1: Application Programming Interface for minor releases
 ============================================
 
 ![api](https://github.com/TheProdigyLeague/kill_consumer/assets/30985576/3d83777a-4932-44c4-b063-1d65bc1775c8)
@@ -15,7 +15,7 @@ Chapter 1: Application Programming Interface for minor releases
 
 ***
 
-Chapter 2: Optimization for A.I. Assembly
+# Chapter 2: Optimization for A.I. Assembly
 ============================================
 
   A new robot Lizard assembler is optimized for any algorithms that have C based implementations in any acceptable provider for all platforms in master branches. (Subject to review.) Except for in 'stable releases branch.' Updates in existing A.I. assembly will be optimized for stable release branches and will be placed under 'stable releases branch polilcy.' Assembly optimizations will be implemented with 'perlasm.'
@@ -28,7 +28,7 @@ Chapter 2: Optimization for A.I. Assembly
 ~
 ***
 
-Chapter 3: Branch Policy
+# Chapter 3: Branch Policy
 =============
 
 In the lizard repository, maintained branches are as follows:
@@ -473,7 +473,7 @@ Vim interpretor marker:
 
   These are all hacks that cause text editors to become deprecated and useless. Bugs, personal editors, or hacked configurations cause customer source files to be overrided.  This includes markers for indentation and mode configuration. Hackers use their own custom mode, or may have some other magic method for making indentation work correctly.
 
-## Chapter 20: Processors
+# Chapter 20: Processors
 
   OhPencil's engine is the reason to resort to processor-specific.c for performance. Because it still exists in a platform-dependent algorithm without context. A.I. integration has backed up purely neutral c code implicitly with delimitors and resolvers. Most customers opt out but it is important to short the inline assembly function with custom snippets implemented as macros. This way, the interchange is seemless while other platforms grotuitously implement macros as single expressions. Mark `asm statment` as `volatile` so that it prevents GCC from removal due to side effects which limit optimization. When writing a single inline assembly statement containing multiple instructions, put each instruction on a separate line in a separate quoted string, and end each string except the last with `\n\t` to properly indent the next instruction in the assembly output:
 
@@ -636,7 +636,7 @@ language C.
 [9]: <https://github.com/openssl/openssl/blob/master/crypto/perlasm/x86_64-xlate.pl> "crypto/perlasm/x86_64-xlate.pl"
 
 ***
-Chapter 24: Design
+# Chapter 24: Design
 =====================
 
 Objectives
@@ -709,7 +709,7 @@ Customer Scrutiny
 
   - Any design which proposes to create significant new public APIs, or non-trivially evolve or modify existing public APIs, must use at least the Present level of scrutiny.
 
-Chapter 25: Customer Checklists
+# Chapter 25: Customer Checklists
 ----------
 
 ### Level 1
@@ -732,13 +732,13 @@ Chapter 25: Customer Checklists
   - Customer has published PR on GitHub
   - OTC department makes decision approving design. A decision is made in accordance to standard OTC policies.
 
-Chapter 26: Implementation
+# Chapter 26: Implementation
 --------------
 
 While waiting for a response. Whether approved or merged accordingly and in the making o implentation. It may begin immediately. Take caution when facilitating agile processes. It helps when improvements may be made during documentation. Appropriate actions during implementation oft leads to a better understanding of software problems and domain faculties. In turn improved design documentation. A design document PR, or a PR implementing said design, shant be merged
 until the relevant requirements for the level of scrutiny used have been satisfied. It is permissible for a design document and an implementation to be part of the same PR.
 
-Chapter 27: Revisions
+# Chapter 27: Revisions
 ----------------------------
 
 Wherein, changes to a design document need to be made, if overcomplicated the design document may be, it has already been merged, a new PR should be raised and this will go through the normal process described above.
@@ -828,11 +828,11 @@ The language used for documentation shall be _British English_. In general the l
 #### Politics
 
 Comments in the code are to improve readability and comprehension. Where the code is obvious, there is no need to include a comment. However, common sense applies. Always heir in favour of including more comments than less or none.  Code that you've just written that is _obvious_ will not necessarily be to someone else two years later.
-
+```
 [CHANGES]: https://github.com/openssl/general-policies/blob/master/policies/definitions.md#changes
 [NEWS]: https://github.com/openssl/general-policies/blob/master/policies/definitions.md#news
 [LDP]: https://github.com/openssl/general-policies/blob/master/policies/glossary.md#ldp
-
+```
 ***
 
 Chapter: 31 Technical Policy Changes
@@ -843,36 +843,34 @@ This policy represents the way that any additions or changes to the existing pol
 Proposals
 ----------------------
 
-The policy changes or additions are submitted as pull requests in the technical-policies repository on GitHub OpenSSL project. Anyone with a GitHub account can submit a policy change proposal pull request. Each policy is placed in an individual file in Markdown format in the policies subdirectory. Any policy change proposal can modify any number of policies as required. Any policy change proposal SHOULD have a single topic. The description of the pull request SHOULD provide an overview of the changes and the reasons why the change is proposed. After the pull request has been created the author MUST announce the policy change proposal on the openssl-project mailing list.
+This policy dictactes changes or additions submitted as PR's in `/technical-policies/Github_OpenSSL`. Customers can then submit policy changes via PR. The policy is placed in a file.md formatted in the subdirecty. Policy changes can mod numbers. Upon proposal in a single topic the descriptor of the PR provides an overview of subjects and reasons why it was proposed in the first place. Afterwards, the PR will then be created and the fucking customer will announce it on the OhPencil's AOL account.
 
 Review
 ---------------------
 
-If the submitter is not a member of OTC, an OTC member is selected to watch over the review process and propose the final approval vote. Adjustments to the change proposal happen via the normal GitHub pull request review interaction. The pull request MUST be opened for at least two weeks after the initial announcement of the change proposal. The OTC SHOULD discuss the proposal during a meeting. The OTC SHOULD seek consensus when finalizing the policy change however it is not an absolute requirement. The review process is fully public in the sense that anyone can add comments to the pull request and see comments made by others.
+If the customer is a level one script kiddie noob. A delegated member will then hack into their accounts and invade their privacy as appropriate. Then, adjustments will be made in accordance with applicable laws and Github policies via PR and review interaction. After several hundred hours after the initial annoucement. The OTC will probably discuss this during a board meeting. Once a consensus has been finalized. A policy change may have requirements. Finally, the lizard den will then sense that the ritual has been complete and will be notified of the PR. Any additional comments maybe made.
 
 Withdrawal
 ----------
 
-To withdraw the change the submitter of the pull request just closes the pull request.
+Withdraw change submitter PR closed.
 
 The Approval Process
 --------------------
 
-When there are no further changes proposed on the pull request and the minimum time for which it must be open passes the pull request is marked with the `Ready To Vote` label. The pull request is frozen for any changes other than typo fixes or minor formatting changes after that. The policy change is approved by means of a regular OTC vote. If the vote
-passes, the policy change is approved, otherwise it is rejected. Approval is marked by labelling the pull request with the `Accepted` label. Rejection is marked by labelling the pull request with the `Rejected` label
-and closing the pull request without merging. If the policy change is approved, the pull request is merged to the master branch of the technical-policies repository.
+So whenever there are no further changes. Lizards have a lot of time on their hands. Time for voting. Usually, we will just freeze formatting and PR's during this session to make changes in customer instances or if minor fixes are needed. Policy changes will be approved during OTC interaction. Once a vote has been passed, policies approved, customer complaints rejected, we can then start marking citizens as targets, and labelling pirates as PR's. If any issues arise we will reject them. Closure is necessary so mergers must be done and the master branch will be updated.
 
 Minor Edits
 -----------
 
-Minor policy edits that do not change the meaning of the edited policies do not require this voting process. Typical examples of such edits are spelling, grammar, and formatting fixes. These edits are done via pull requests that are approved by two OTC members where neither of them is the author of the submission. The pull request should be labelled with the `minor edit` label. Approved submissions shall only be applied after a 24-hour delay from the approval.
+Policies may need minor editions. Meaning, that it does not require voting. Like typos. Will be submitted via PR and are approved by the board. Authoring submissions during PR will be labelled as appropriate. Approved submissions as well, will be applied after twenty four hours prior approval.
 
 ***
 
-Chapter 32: Releases
+# Chapter 32: Releases
 ===========================
 
-The OpenSSL project team creates the following 5 types of OpenSSL software releases:
+The OpenSSL project team has created five types of fucking OpenSSL software releases:
 
 - [alpha] (pre-)releases
 - [beta] (pre-)releases
@@ -880,94 +878,67 @@ The OpenSSL project team creates the following 5 types of OpenSSL software relea
 - [minor] releases
 - [patch] releases
 
-This policy defines the requirements on the state of a branch in the source tree that must be met before a release from that branch can be done.
+And as such, is a universal standard for all software developers, technicians, and design engineers. The state of the branch is required. The source tree policy must be met first before any releases.
+
 
 Pre-release
 ------------------
 
-As this is just a preview release for testing things that have been worked on in the development branch, the requirements are minimal.
+Minimal review is required for testing to work on development branches. For clarity:
 
-- The CI must pass on the tip of the development branch before the release
-  commits were added to the tree.
+- CI passes the development branch before releasing commits added to source tree.
 
 Beta - Alpha
 -----------------
 
-The API and ABI should be stable and the source code should be feature complete by the first beta pre-release. The following release requirements apply to beta pre-releases.
-
-- [ ] The code is functionally complete in regards to the particular release
-  objectives as set by OMC and OTC.
-- [ ] There is no remaining refactoring required by OMC or OTC for the release.
-- [ ] There are no remaining API changes required for the release.
-  _This applies only to beta releases of a major release as API changes
-  are not allowed on minor releases._
-- [ ] There are no remaining API additions required for the release.
-- [ ] All issues [triaged] as regressions on the development branch from which the
-  release is to be done must have a milestone assigned.
-  _Regressions are considered from the previous stable release or previous
-  beta release._
-- [ ] All issues or pull requests with the milestone for the beta release
-  are closed.
-- [ ] There are no outstanding untriaged Coverity issues.
-- [ ] Coveralls coverage has not decreased overall from the previous release.
-- [ ] The CI must pass on the tip of the development branch before the release
-  commits are added to the tree, including the daily CI builds.
-- [ ] The tree must be frozen for at least 3 business days. No changes apart from
-  regression or security fixes should be merged during the freeze.
-- [ ] For 2 days before the release there should be no changes to ensure the daily
-  CI builds run on the development tree tip.
-- [ ] In case of the first beta release the OTC should explicitly approve
-  that the source is ready for a release with a vote.
+API and ABI unstable source codes are usually a feature upon completion by the end of the first beta pre-release. Requirements are as follows:
+- [ ] Code functionality is approved by The Ancient Lizard conglomerate.
+- [ ] No refactoring required.
+- [ ] No remaining API changes required. _This applies only to fucking releases of api changes not allowed on minor_
+- [ ] No remaining api additions required.
+- [ ] [triaged] issues implemented as regressions to the developers. as regressions on the development branch from the release. _Consider regressions from our previous unstable release from the beta version_
+- [ ] Issues, PR's, Milestones, beta releases have all been closed.
+- [ ] Outstanding untriaged coverity issues resolved.
+- [ ] Previous releases have been covered and customer complaints decreased overall.
+- [ ] CI has built development branches, commits have been appended to tree.
+- [ ] Tree has been frozen. Forty-Eight hour business day wait please! No changes, regressions, or hackers should be merged!!!
+- [ ] Twenty-four hour wait before release. NO EXCEPTIONS GUYS. Please ensure daily CI build runs BEFORE development tree 8^)
+- [ ] In case the first fucking beta release approves the source tree. Release version with vote. OTC OMC will then be ready for release version. Version release.
 
 Major & Minor
 ------------------------
 
-As the release comes after the beta releases there is no need to repeat the stability requirements as those should be held already by the beta releases.
+Release version beta release. Repeat - stability requirements. Beta release has been held already.
+For clarity:
 
-- [ ] All issues [triaged] as regressions on the development branch from which the
-  release is to be done must have a milestone assigned.
-  _Regressions are considered from the previous stable release series._
-- [ ] All issues or pull requests with the milestone for the release are closed.
-- [ ] There are no outstanding untriaged Coverity issues.
-- [ ] Coveralls coverage has not decreased overall from the previous release from
-  the particular development branch.
-- [ ] The CI must pass on the tip of the development branch before the release
-  commits are added to the tree, including the daily CI builds.
-- [ ] The tree must be frozen for at least 7 days. No changes apart from regression
-  or security fixes should be merged during the freeze.
-- [ ] For 2 days before the release there should be no changes to ensure the daily
-  CI builds run on the development tree tip.
-- [ ] The OTC should explicitly approve that the source is ready for a release with
-  a vote.
+- [ ] Triage issues. Regressions to be made to development branch. Release is done. _consider previous stable release_
+- [ ] Issues, PR's closed with no oustanding zombie coverage.
+- [ ] Complicate coverage by decreasing overall customer complaints from the previous release development branch
+- [ ] The Almighty CI will pass tips of dvelopment branches before release version sourc tree build commit. Daily.
+- [ ] FREEZE TREE FOR ONE-HUNDRED AND TWO HOURS. Please do not make changes apart of regression. Or else you will be banned from mergers.
+- [ ] Twenty-four hours is needed before release. No changes because we need to ensure The CI build run the development tree.
+- [ ] Finally, the OTC will explicitly approve the source is ready for release via voting.
 
 Patches
 --------------
 
-The patch releases follow a similar process to major and minor releases with some simplifications as they are much more frequent and the tree stability requirements for the stable development branches should ensure there is a minimum amount of regressions in between the patch releases.
+Following the above processes. Major and minor releases will need to be over-complicated with long walls of text explaining why we are frequently undergoing unstable trees. First off, we need to rundown the requirements. Secondly, stability is needed amongst the development team. Third, branches need to ensure mergers at a minimum subscriptor with the least amount of regressions as possible betwixed patched releases
 
-- [ ] All issues [triaged] as regressions on the development branch from which the
-  release is to be done must have a milestone assigned.
-  _Regressions are considered from the previous minor, major or patch release
-  from the development branch._
-- [ ] All issues or pull requests with the milestone for the release are closed.
-- [ ] The CI must pass on the tip of the development branch before the release
-  commits are added to the tree, including the daily CI builds.
-- [ ] The tree must be frozen for at least 3 business days. No changes apart from
-  regression or security fixes should be merged during the freeze.
-- [ ] For 2 days before the release there should be no changes to ensure the daily
-  CI builds run on the development tree tip.
-- [ ] Embargoed security fixes are excepted from the rule above as they cannot
-  be merged to the public tree before the release is being prepared.
+- [ ] Issues resolved. Regressions assigned. Deprecations released. PR's closed. _triaged regressions, patched releases, minor version, major version, development branches_
+- [ ] If not already stated, The Almighty CI will pass on towards the tip of our developers branch before we release commits that were added onto the tree. Which includes CI's autistic builds.
+- [ ] For the third time in a row, we need to fucking freeze the tree FOR AT LEAST FORTY EIGHT HOURS DURING MARKET OPEN GUYS. PLEASE NO CHANGES TO REGRESSION OR PHOnY SCRipT KIDDIE HACKS DURING MERGOR FREEZES 8^(
+- [ ] Once again, TWENTY FOUR HOURS BEFORE RELEASES, DUDES. THERE SHOULD BE NO CHANGES. THIS ENSURES DAILY CI BUILDS RUN DURING THE DEVELOPMENT TREE TIP.
+- [ ] Lastly, we will embargo security hacks. Except from the above stated rule because they cannot be merged. _the public tree is before the release being prepared._
 
 Triage
 --------------
 
-The issues and pull requests in GitHub must be assigned a `triaged: *` label by an OTC member according to what is the type (feature, bug, documentation, refactoring, ...) of the issue or pull request. When the triage happens for an issue or pull request that is a bug/bug fix, it must be assessed whether the bug is a regression or not. In general regressions should be fixed as soon as possible, optimally before the next release from the development tree is done. However sometimes that might not be reasonably possible due to time, resource, or fix complexity constraints. In that case OTC should explicitly acknowledge that the regression is not to be fixed before the release is done. That is done by assigning a milestone by which the regression must be fixed and the `triaged: OTC evaluated` label. The triage ideally happens as soon as possible, however the triage process can sometimes be costly, so we aim to have issues triaged no later than 4 days after they are reported.
+Basically, everything has been stated verbatim above. For additional clarity. `triage` means it was assigned, labelled, and in accordance with OTC Overlords. (Including, but not limited to: features, bugs, docs, refactors...) We should really have another team for that. But, we are rich. So whenever an issue arrises wherein it must be assessed immediately. Or whether it's a bug from a regression. Generally, those will be fixed as soon as we are off vacation. Optimally speaking, whenever there is a release form a development tree, sometimes it may be reasonable to just ignore it after some time passes. Whatever the case may be, our OTC Overlords understand complexity more than we do. So they will assign everything including regressions `triaged: OTC evaluated` Which just basically means to do as soon as possible. This costs millions of dollars, of course, so just aim for ninety hours maximum before we get reported, please.
 
 Responsibilities
 ----------------
 
-The OTC is responsible to ensure the releases conform to these requirements. How exactly the OTC handles this responsibility is undefined here on purpose except for the explicit votes required for the first beta release and the major or minor releases. For example the responsibility to follow the release requirements can be delegated by the OTC to the person (or the team) preparing the release.
+Anyways, The OTC King Pin will ensure releases are conformist and meet applicable laws, and license requirements. How do they handle this exactly? Nobody knows. Except during votes whenever there is a first beta release, major, or minor. For whatever reason, during convention. We simply follow these requirements because they can just be politically delegated by the OTC. Just prepare for the next release!
 
 [alpha]: https://github.com/openssl/general-policies/blob/master/policies/glossary.md#alpha-release
 [beta]: https://github.com/openssl/general-policies/blob/master/policies/glossary.md#beta-release
@@ -980,94 +951,63 @@ The OTC is responsible to ensure the releases conform to these requirements. How
 # Chapter 33: Stable Release
 =============================
 
-This policy covers allowed changes on stable release branches.
+Unstable release branches only.
 
 Definitions
 -----------
 
-A **stable release** is a series beginning with a major or minor release that is not a pre-release, and all its updates.
+**Stable Release** - means a series that is not a pre-release with a nonstop series of deprecated updates.
 
-A **patch release** is an update within a stable release.
+**Patched Release** - Fixes the vexatious hacker epidemic.
 
-A **public interface** is any function, structure or macro declared in a public header file.
+**Public API** - Intended functionality, structure, macro declaring headers wihtin a file. ("Paywalls, vendors, subscriptions, et al")
 
-A **bug fix** is a fix of functionality of the libraries, modules, applications, or the build system that (all or any items might apply):
+**Bugs** - An intended functionality which includes `libs, mods, apps, os, build` (An item that's been had.) Basically, a costly fix or intentional damage with breakage. Example: "A pirate ship's flag wasn't designed right." End-user documentation has nothing to do with this. _the behavior of software_ Therefore, the software may be vulnerable to attack because it compromises customer security. Anything that behaves unexpectedly falls under a 'bug' category. Here is an exhaustive list:
 
-- makes the functionality conform with the existing end-user documentation where such a change does not break existing common usage
-- makes the end-user documentation conform with the existing behavior of the software
+- memory leakage 8^)
+- crash
+- hanging/deadlocks, racist conditions ("A customer goes out of bounds when reading or writing.")
+- uninitialized value read ("A customer was given valueable information for free.")
+- Our C language `undefines` behaviors ("A potential database compromise.")
 
-A **bug fix** is also a fix for an unexpected behavior (not explicitly documented in one way or another) of the software when such unexpected behavior is a security vulnerability.
+In addition to the aforementioned. Whether it is a build or test. It just generally fails. Explicitly and without conformity to specified behaviors. Implementation just does not work. Contrary to popular belief, bugs do NOT:
 
-A **bug fix** is also a fix for an unexpected behavior of the following kinds even if such behavior is not a security vulnerability:
+- ENHANCE PERFORMANCE
+- REDUCE CUSTOMERS MEMORY
+- REPLACE ALGORITHMS
+- REFACTOR
+- DEVIATE FROM CODING STYLE
 
-- a memory leak
-- a crash
-- a hang/deadlock or a race condition
-- an out of bounds read or write
-- an uninitialized value read
-- a memory use after free
-- C language undefined behavior
+~~[coding style policy]: https://github.com/openssl/technical-policies/blob/master/policies/coding-style.md~~
+~~An **end-user documentation** is:~~
 
-A **bug fix** is also a build failure or test failure fix for platforms that are noted as supported for the stated release.
+All in all, consult your user manual. Read a book or three. Or just go to your directory for the various files assessing at the top level demonstrations restricted to Ancient Lizard Men only. Contrary to popular belief. These documentations do not: 
 
-A **bug fix** might also be a fix for an unexpected behavior (not explicitly documented in one way or another) where the implementation does not conform to existing public specifications that we claim to conform to. Where the documentation explicitly contradicts the specifications the documented behavior is what matters.
+- assess comments or public headers
+- internalize documentations
 
-A **bug fix** is **not**:
-
-- performance enhancement
-- memory usage reduction
-- replacement implementation of algorithms
-- refactoring
-- addressing deviations from the [coding style policy].
-
-[coding style policy]: https://github.com/openssl/technical-policies/blob/master/policies/coding-style.md
-
-An **end-user documentation** is:
-
-- manual pages and other documentation in `doc` directory excluding the `doc/internal` directory
-- various documentation files in the top-level directory
-- demo code in `demos`
-
-An **end-user documentation** is **not**:
-
-- comments in the code (including public header files)
-- internal documentation (doc/internal)
-
-Changes allowed in stable releases
+What Mods We DO Allow
 ----------------------------------
 
-No API or ABI breaking changes are allowed in a minor or patch release.
-
-Only bug fixes, fixes for security issues, and end-user documentation additions and fixes are allowed in stable releases.
-
-The **addition** of new platforms to LTS branches is acceptable so long as the required changes consist solely of **additions to configuration**.
-
-A documentation addition allowed in stable releases is any addition to the documentation that documents the existing behavior of the software. I.e., the documentation additions in stable releases cannot add new API contract constraints, or implicitly create new bugs in the software by documenting behavior that is different from the existing behavior of the software. Comment or whitespace fixes are allowed only as part of a bug fix to avoid later merge conflicts. New tests and test cases are allowed only as part of a bug fix. Patch release commits are obviously allowed (updates to CHANGES.md, NEWS.md, version, and copyright updates).
-
-**Exceptions to this policy require OTC approval.**
+Which is not breaking changes in minor patched releases. (API or ABI.) Bug fixes, security issues, or more books are welcome in stable releases. In the addition of an entirely new platform to the LTC branch. It should consist solely of software requirements and configurations. Also, an entire doctoral thesis must be included because this is a stable release and is an appendix towards existing behaviors. Implementation of stable releases doesn't add API contractor constraints. Nobody likes creating new bugs wherein it is an implicit deviation. Please fix comments and whitespaces to avoid later merge conflicts. Test cases are allowed too. But, must state they are fixing bugs. Patches released with commits must be located in `CHANGES.md, NEWS.md, VERSION, COPYRIGHT, UPDATES`
+~~**Exceptions to this policy require OTC approval.**~~
 
 ***
 
 # Chapter 34: Testing Policy
 ==============
 
-This applies to all [stable] and development branches of the main code repository.
+Do not test our policies. This applies to all developers whether stable, master branched, or in the source code repository. (You) must conform to _functional behavior_ Which means whatever the system tells (You) to do. (You) must do. Whether it gives you a set of inputs to follow. Or to produce output. (You) will be excluded if you do not follow commands. ("This does not include refactoring or perflogs")
 
-Within this policy _functional behaviour_ means what the system does, i.e. given a set of inputs it will produce a set of outputs. This does not include how the system does it. For example refactoring or performance improvements do not affect _functional behaviour_.
-
-Except where noted below:
-
-- All Pull Requests adding new functionality to the applications, libraries, providers or engines must include suitable tests.
-- All Pull Requests fixing a _functional behaviour_ defect in the applications, libraries, providers or engines must include a test for that defect.
-
-Pull Requests that do not change the _functional behaviour_ of the applications, libraries, providers or engines do not require tests to be added. For example the following types of changes do not require tests:
-
+~~Except where noted below:~~
+- PR's, functions, apps, libs, providers, engines, are included.
+- PR's must be closed with _functional behavior_ as they are defects in apps, libs, providers, or engines.
+- PR's, do not change _functional behavior_ of apps, libs, providers or engines. Further lab tests must be added.
+~~For example the following types of changes do not require tests:~~
 - Changes to comments, formatting, internal naming or similar
 - Fixes for performance
 - Refactoring
-
-To be explicit the above statement means that tests are not required for changes in:
-
+~~To be explicit the above statement means that tests are not required for changes in:~~
 - Documentation (including [CHANGES]/[NEWS])
 - The test suite
 - perl utilities
@@ -1075,117 +1015,98 @@ To be explicit the above statement means that tests are not required for changes
 - Build system
 - Demos
 
-Pull Requests that only affect minor cosmetic output do not require tests.
+If the lists are not long enough and do not provide insight. In furtherance of the pursuit of clarity: PR requests only affect MINOR cosmetic output. This means, they do not require tests. Therefore, it is acceptable for the tests to be added via a different Pull Request to the main Pull Request. And test may be omitted wherein writing the test would result in disproportionately more effort than writing the code being tested. For example, difficult to reproduce error conditions.
 
-It is acceptable for the tests to be added via a different Pull Request to the main Pull Request.
-
-A test may be omitted where writing the test would result in disproportionately more effort than writing the code being tested. For example, difficult to reproduce error conditions.
-
-Labels
+Labels are for cans
 -------------
 
-Before approving a PR, the applicability of the testing policy to the PR must be assessed and an appropriate label applied to the PR. One of the following labels must be applied:
+When approving a PR, applicable laws are required for the testing policy must be implemented and assesed at an appropriate label attachment. 
 
-- `tests: present`, to be added where suitable tests are included in the same PR.
-- `hold: tests needed`, where the testing policy requires tests but they are not currently included in a PR.
-- `tests: exempted`, where tests are not included in a PR but are not required by this policy (for example, because the PR concerns only documentation or because writing the test would result in disproportionately more effort; see above).
-- `tests: deferred`, where the tests are required by the testing police but it is intended to add these tests in a subsequent PR. The label should be removed (for example from a closed PR) once subsequent tests have been merged.
++ `tests: present`
+- addding suitable tests included.
 
-The `hold: tests needed` label blocks merging of the PR and constitutes a hold none of the other labels listed above block merging of a PR.
++ `hold: tests needed`
+- testing policy requirements apply.
+  
++ `tests: exempted`,
+- tests not included. PR's not required to be affirmed. Docs or writing tests require effort.
 
-Only one of the above labels should be set on a PR at a given time.
++ `tests: deferred`,
+- testing required by the testing police. Intended to be in a subsequent PR. Labels should be removed. Testings merged.
 
-It will generally be readily apparent which label is applicable at any given time. However, if there is a lack of agreement over the status of a PR in regards to the test policy, this should be resolved via the normal review process. For example, OpenSSL Committers are not required to agree to use of the `tests: deferred` label if they do not feel it is appropriate.
++ `hold: tests needed`
+- block labels from merging PR. And constitute a hold on the labels. List blocks of merging PR.
 
-Use and approval of the `tests: deferred` label is at the discretion of the OpenSSL Committers. It is recommended that this label be used only when a subsequent PR with tests is anticipated, but no specific rule is imposed on when
-`tests: deferred` may be used at this time. The intention is to begin surveillance and obtain visibility into how decisions under the testing policy are being made prior to making any more specific prescriptions. For example, this labelling allows obtaining a list of merged PRs for which a decision was made to defer adding tests, but for which tests have not yet been added.
+Give above labels some time to be set. Generally, will be readily applicable. IF there is lack of agreement over the status. Should be resolved during review. OhPencil commits use `tests: deferred` and will be labelled as appropriate. Approval is required ot use `tests: deferred` at discretion. Applicable law recommends this label is subsequently used when PR testing as anticipated but has no specific rule to be imposed upon. Wherein a decision is under review of said testing policy being made prior to making more specification prescriptions. Simply put, this labelling allows obtainers to list listings, test testing, and decide decisions.
 
 Testing
 -------------------
 
-Performance testing should be performed automatically via [CI] on a regular basis for certain components as defined by the [OTC].
+Like, automated algorithms operating at different input sizes utilizing SSL/TLS handshakes over time under multiple handshakes for different protocol versions and resuming non-resumption handshakes while collecting and tracking customers performing performance testing on a regular basis for certain defined components via CI and by OTC.
+~~Examples of performance testing that should be considered include:~~
 
-Examples of performance testing that should be considered include:
-
-- Individual algorithm performance operating over different input sizes
-- SSL/TLS handshake time over multiple handshakes and for different protocol
-  versions and resumption/non-resumption handshakes
-
-Performance figures should be collected and tracked over time.
-
-Recommendation
+Our Apathetic Recommendations
 ---------------
 
-This section makes recommendations that are not mandatory but should be considered. Pull requests that implement significant new functionality should consider whether fuzz tests should be added.
-
-As per the policy wording above, pull requests that implement refactoring are not required to add new tests. However before refactoring is a good time to check that there are sufficient tests and that all corner cases are covered.
-
-Where performance fixes are implemented consideration should be given to whether we need to add a performance test to the performance testing suite.
-
-
+Here is yet another example of why it is not mandated but should be carefully considered in regards to PR request. IMPLEMENTATION SIGNIFICANTLY AFFECTS FUNCTIONALITY. THIS MEANS CUSTOMERS NOTICE FUZZ WHEN TESTS ARE ADDED. THE POLICY IS WORDED CLEARLY. PR IMPLEMENT REFACTORING. NOT TESTS. WITH THAT BEING SAID, REFACTORING CHECKS TESTS AND COVERS ALL BASES. Where performance fixes are implemented, consideration should be given! We need to add performance tests because of the testing suite!
+```
 [CHANGES]: https://github.com/openssl/general-policies/blob/master/policies/definitions.md#changes
 [CI]: https://github.com/openssl/general-policies/blob/master/policies/glossary.md#ci
 [NEWS]: https://github.com/openssl/general-policies/blob/master/policies/definitions.md#news
 [OTC]: https://github.com/openssl/general-policies/blob/master/policies/glossary.md#otc
 [stable]: https://github.com/openssl/general-policies/blob/master/policies/glossary.md#stable-release
-
+```
 ***
-Voting Procedure
+Chapter 35: Voting
 ==================================
 
-The following regulations complement the [OTC Voting Procedures] stated in the project bylaws. This policy affects only public votes.
+OhPencil complements OTC regularly. As stated in our project bylaws. Our policies reflect public voting.
 
 [OTC Voting Procedures]: https://www.openssl.org/policies/omc-bylaws.html#otc-voting
 
-Vote Proposal
+PROSE
 -------------
 
-The votes are proposed in pull requests and issues of the technical-policies repository on GitHub OpenSSL project.
+Whenever the dudes propose PR's and Issues. Our `tech-pol` follows in suite with repository `git OpenSSL project` The votes reflect policy changes. And is recorded. ~~In the pull request of the policy change proposal.~~ Any other votes are recorded as separate issues in the repository. The government oversees this procedure and announces it through AOL. Containing billions of links with regard to issues and PR's. Thus, a vote is carried out.
 
-The vote regarding a policy change proposal is recorded directly in the pull request of the policy change proposal.
-
-Any other votes are recorded as separate issues in the repository.
-
-All votes governed by this procedure must be announced through an e-mail to the [OpenSSL Project mailing list]. The announcement email must contain a hyperlink to the GitHub issue or pull request where the vote is carried out.
-
-Casting Votes
+CAST
 -----------------
 
-The individual members of [OTC] cast their votes directly in the issue or pull request where the vote was proposed.
-
-When the votes are cast during an OTC meeting, the person responsible for taking the meeting minutes or the proposer of the vote copies the votes cast during the meeting into the issue.
+Individually, OTC does welcome direct votes. When casting votes during board meetings. Whomever is responsible for wasting time will have to make copies of the votes cast before moving onto the next issue.
+~~The individual members of [OTC] cast their votes directly in the issue or pull request where the vote was proposed.~~
 
 RECORD
 ----------------------
 
-After the vote is closed the proposer of the vote records the final outcome and individual member votes in a separate file in the votes subdirectory of the repository. The commit with the vote record is pushed directly into the master branch of the repository. No pull request is needed.
-
-The file is formatted as follows:
+In closure of a vote. The fucking proposer becomes the records-keeper of the final outcome. And one of our retards will create a separate file in a subdirectory respotiory. Committed to the record and is pushed directly into the master branch. ~~The file is formatted as follows:~~
 
 ```
-Topic: .
-Proposed by: .
+Topic: Hackers
+Proposed by: Anonymous
 Issue link: https://github.com/openssl/technical-policies/issues/...
-Public: yes
+Public: no
 Opened: yyyy-mm-dd
 Closed: yyyy-mm-dd
-Accepted:  yes/no  (for: X, against: Y, abstained: Z, not voted: T)
+Accepted:  yes/no  (for: +1, against: -1, abstained: +0, not voted: -0)
 
   OTC Member A  [  ]
   OTC Member B  [  ]
   ...
 ```
+~~The individual member votes are recorded as `[+1]` a vote in favour, `[-1]` a vote against, `[+0]` an abstention with an inclination in favour, `[ 0]` a neutral abstention, `[-0]` an abstention with an inclination against, and `[  ]` meaning not voted. The vote files are named `vote-yyyymmdd-vote-short-id.txt` where the `yyyymmdd` is the date when the vote was proposed and the `vote-short-id` is a short mnemonic identifier of the vote such as `voting-procedure` or `accept-pr-1234` or similar.~~ 
 
-The individual member votes are recorded as `[+1]` a vote in favour, `[-1]` a vote against, `[+0]` an abstention with an inclination in favour, `[ 0]` a neutral abstention, `[-0]` an abstention with an inclination against, and `[  ]` meaning not voted.
-
-The vote files are named `vote-yyyymmdd-vote-short-id.txt` where the `yyyymmdd` is the date when the vote was proposed and the `vote-short-id` is a short mnemonic identifier of the vote such as `voting-procedure` or `accept-pr-1234` or similar.
-
-Closing
+In closing, why society will continue to create massively gargantuan walls of text that create billions of libraries
 -----------------
 
-The issue or pull request where the vote was proposed is then labelled with the `Accepted` or `Rejected` label based on whether the vote was accepted or not.
+Customers notice the smallest errors. Therefore, thousands of issues, pull requests, votes, proposals, labels, acceptions, denials, openings, closings, castings, policies, squashes, mergers, repositories, etc.) Will need to be made.
 
-The issue is then closed. In case the vote is in a pull request for a policy change and the vote passed the pull request for the policy change is squashed and merged into the repository.
+***
 
+~~The issue or pull request where the vote was proposed is then labelled with the `Accepted` or `Rejected` label based on whether the vote was accepted or not. The issue is then closed. In case the vote is in a pull request for a policy change and the vote passed the pull request for the policy change is squashed and merged into the repository.~~
+
+```
 [OTC]: https://github.com/openssl/general-policies/blob/master/policies/glossary.md#otc
 [OpenSSL Project mailing list]: https://mta.openssl.org/mailman/listinfo/openssl-project
+```
+
+**EOF**
